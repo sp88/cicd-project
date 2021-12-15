@@ -1,0 +1,11 @@
+# IDE
+.vscode/
+.DS_Store
+
+# Temp Directory
+tmp/*
+
+# credentials
+*.pem
+
+.gitlab-ci.yml

@@ -1,0 +1,25 @@
+[
+    {
+        "intent": "deploy_app",
+        "text": "I would like to deploy my nodejs app",
+        "slots": {
+            "music_item": "tune",
+            "playlist_owner": "my",
+            "playlist": "elrow Guest List"
+        },
+        "positions": {
+            "music_item": [
+                6,
+                9
+            ],
+            "playlist_owner": [
+                14,
+                15
+            ],
+            "playlist": [
+                17,
+                32
+            ]
+        }
+    }
+]

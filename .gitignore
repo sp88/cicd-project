@@ -8,4 +8,6 @@ tmp/*
 # credentials
 *.pem
 
+# Test Files
 .gitlab-ci.yml
+test.py

@@ -1,24 +1,66 @@
 [
     {
         "intent": "deploy_app",
-        "text": "I would like to deploy my nodejs app",
+        "text": "I would like to deploy nodejs-app-test1",
         "slots": {
-            "music_item": "tune",
-            "playlist_owner": "my",
-            "playlist": "elrow Guest List"
+            "app_name": "nodejs-app-test1"
         },
         "positions": {
-            "music_item": [
-                6,
-                9
-            ],
-            "playlist_owner": [
-                14,
-                15
-            ],
-            "playlist": [
+            "app_name": [
+                23,
+                38
+            ]
+        }
+    },
+    {
+        "intent": "deploy_app",
+        "text": "I want to deploy packages service",
+        "slots": {
+            "app_name": "packages"
+        },
+        "positions": {
+            "app_name": [
                 17,
+                24
+            ]
+        }
+    },
+    {
+        "intent": "declare_stages",
+        "text": "stages are dependancies, test, deploy to staging",
+        "slots": {
+            "no_of_stages": "two"
+        },
+        "positions": {
+            "app_name": [
+                14,
+                16
+            ]
+        }
+    },
+    {
+        "intent": "declare_stages",
+        "text": "there will be build, test, deploy as stages",
+        "slots": {
+            "names_of_stages": "build, test, deploy"
+        },
+        "positions": {
+            "app_name": [
+                14,
                 32
+            ]
+        }
+    },
+    {
+        "intent": "declare_stages",
+        "text": "testing is also a stage",
+        "slots": {
+            "names_of_stages": "deploy"
+        },
+        "positions": {
+            "app_name": [
+                0,
+                5
             ]
         }
     }

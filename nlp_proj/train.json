@@ -1,5 +1,5 @@
-[
-    {
+{
+    "0": {
         "intent": "deploy_app",
         "text": "I would like to deploy nodejs-app-test1",
         "slots": {
@@ -12,7 +12,7 @@
             ]
         }
     },
-    {
+    "1": {
         "intent": "deploy_app",
         "text": "I want to deploy packages service",
         "slots": {
@@ -25,7 +25,7 @@
             ]
         }
     },
-    {
+    "2": {
         "intent": "declare_stages",
         "text": "stages are dependancies, test, deploy to staging",
         "slots": {
@@ -38,7 +38,7 @@
             ]
         }
     },
-    {
+    "3": {
         "intent": "declare_stages",
         "text": "there will be build, test, deploy as stages",
         "slots": {
@@ -51,17 +51,17 @@
             ]
         }
     },
-    {
+    "4": {
         "intent": "declare_stages",
-        "text": "testing is also a stage",
+        "text": "In testing stage there needs to be some validation done",
         "slots": {
-            "names_of_stages": "deploy"
+            "names_of_stages": "testing"
         },
         "positions": {
             "app_name": [
-                0,
-                5
+                3,
+                9
             ]
         }
     }
-]
+}

@@ -40,14 +40,40 @@
     },
     {
         "intent": "declare_stages",
-        "text": "stages are dependancies, test, deploy to staging",
+        "text": "stages are dependancies, test, deploy to staging, deploy to production",
         "slots": {
-            "no_of_stages": "two"
+            "names_of_stages": "dependancies, test, deploy to staging, deploy to production"
         },
         "positions": {
             "stages_names": [
-                14,
-                16
+                11,
+                69
+            ]
+        }
+    },
+    {
+        "intent": "declare_stages",
+        "text": "stages are dependancies, test, deploy to staging",
+        "slots": {
+            "names_of_stages": "dependancies, test, deploy to staging"
+        },
+        "positions": {
+            "stages_names": [
+                11,
+                47
+            ]
+        }
+    },
+    {
+        "intent": "declare_stages",
+        "text": "stages are dependancies, test, deploy to staging",
+        "slots": {
+            "names_of_stages": "dependancies, test, deploy to staging"
+        },
+        "positions": {
+            "stages_names": [
+                11,
+                47
             ]
         }
     }

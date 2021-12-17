@@ -65,6 +65,58 @@
     }
   },
   "5": {
+    "intent": "capture_app_name",
+    "text": "I like to deploy propertyService",
+    "slots": {
+      "app_name": "propertyService"
+    },
+    "positions": {
+      "app_name": [
+        17,
+        31
+      ]
+    }
+  },
+  "6": {
+    "intent": "capture_app_name",
+    "text": "Can you deploy propertyService",
+    "slots": {
+      "app_name": "propertyService"
+    },
+    "positions": {
+      "app_name": [
+        15,
+        29
+      ]
+    }
+  },
+  "7": {
+    "intent": "capture_app_name",
+    "text": "my application is named management-services",
+    "slots": {
+      "app_name": "management-services"
+    },
+    "positions": {
+      "app_name": [
+        24,
+        42
+      ]
+    }
+  },
+  "8": {
+    "intent": "capture_app_name",
+    "text": "my service is to-do-list-test",
+    "slots": {
+      "app_name": "to-do-list-test"
+    },
+    "positions": {
+      "app_name": [
+        14,
+        28
+      ]
+    }
+  },
+  "9": {
     "intent": "declare_stages",
     "text": "In testing stage there needs to be some validation done",
     "slots": {
@@ -77,7 +129,7 @@
       ]
     }
   },
-  "6": {
+  "10": {
     "intent": "declare_stages",
     "text": "there will be stage 1, stage 2, stage 3 as stages",
     "slots": {
@@ -90,7 +142,7 @@
       ]
     }
   },
-  "7": {
+  "11": {
     "intent": "declare_stages",
     "text": "there will be build, test, deploy as stages",
     "slots": {
@@ -103,20 +155,46 @@
       ]
     }
   },
-  "8": {
+  "12": {
     "intent": "declare_stages",
-    "text": "stages are dependancies, test, deploy to staging",
+    "text": "stages are dependancies, test, deploy to staging, deploy to production",
     "slots": {
-      "no_of_stages": "two"
+      "names_of_stages": "dependancies, test, deploy to staging, deploy to production"
     },
     "positions": {
       "stages_names": [
-        14,
-        16
+        11,
+        69
       ]
     }
   },
-  "9": {
+  "13": {
+    "intent": "declare_stages",
+    "text": "stages are dependancies, test, deploy to staging",
+    "slots": {
+      "names_of_stages": "dependancies, test, deploy to staging"
+    },
+    "positions": {
+      "stages_names": [
+        11,
+        47
+      ]
+    }
+  },
+  "14": {
+    "intent": "declare_stages",
+    "text": "stages are dependancies, test, deploy to staging",
+    "slots": {
+      "names_of_stages": "dependancies, test, deploy to staging"
+    },
+    "positions": {
+      "stages_names": [
+        11,
+        47
+      ]
+    }
+  },
+  "15": {
     "intent": "capture_framework_name",
     "text": "I am using npm as the framework",
     "slots": {
@@ -129,7 +207,7 @@
       ]
     }
   },
-  "10": {
+  "16": {
     "intent": "capture_framework_name",
     "text": "I am using nodejs as the framework",
     "slots": {
@@ -142,7 +220,7 @@
       ]
     }
   },
-  "11": {
+  "17": {
     "intent": "capture_framework_name",
     "text": "I am not using any framework",
     "slots": {
@@ -152,6 +230,45 @@
       "framework_name": [
         5,
         13
+      ]
+    }
+  },
+  "18": {
+    "intent": "capture_framework_name",
+    "text": "I am not using any framework",
+    "slots": {
+      "framework_name": "not using"
+    },
+    "positions": {
+      "framework_name": [
+        5,
+        13
+      ]
+    }
+  },
+  "19": {
+    "intent": "capture_framework_name",
+    "text": "using python django framework",
+    "slots": {
+      "framework_name": "django"
+    },
+    "positions": {
+      "framework_name": [
+        13,
+        18
+      ]
+    }
+  },
+  "20": {
+    "intent": "capture_framework_name",
+    "text": "using ruby rails",
+    "slots": {
+      "framework_name": "rails"
+    },
+    "positions": {
+      "framework_name": [
+        11,
+        15
       ]
     }
   }

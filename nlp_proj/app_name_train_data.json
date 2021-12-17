@@ -63,5 +63,57 @@
                 35
             ]
         }
+    },
+    {
+        "intent": "capture_app_name",
+        "text": "I like to deploy propertyService",
+        "slots": {
+            "app_name": "propertyService"
+        },
+        "positions": {
+            "app_name": [
+                17,
+                31
+            ]
+        }
+    },
+    {
+        "intent": "capture_app_name",
+        "text": "Can you deploy propertyService",
+        "slots": {
+            "app_name": "propertyService"
+        },
+        "positions": {
+            "app_name": [
+                15,
+                29
+            ]
+        }
+    },
+    {
+        "intent": "capture_app_name",
+        "text": "my application is named management-services",
+        "slots": {
+            "app_name": "management-services"
+        },
+        "positions": {
+            "app_name": [
+                24,
+                42
+            ]
+        }
+    },
+    {
+        "intent": "capture_app_name",
+        "text": "my service is to-do-list-test",
+        "slots": {
+            "app_name": "to-do-list-test"
+        },
+        "positions": {
+            "app_name": [
+                14,
+                28
+            ]
+        }
     }
 ]

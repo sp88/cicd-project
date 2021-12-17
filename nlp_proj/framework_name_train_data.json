@@ -37,5 +37,44 @@
                 13
             ]
         }
+    },
+    {
+        "intent": "capture_framework_name",
+        "text": "I am not using any framework",
+        "slots": {
+            "framework_name": "not using"
+        },
+        "positions": {
+            "framework_name": [
+                5,
+                13
+            ]
+        }
+    },
+    {
+        "intent": "capture_framework_name",
+        "text": "using python django framework",
+        "slots": {
+            "framework_name": "django"
+        },
+        "positions": {
+            "framework_name": [
+                13,
+                18
+            ]
+        }
+    },
+    {
+        "intent": "capture_framework_name",
+        "text": "using ruby rails",
+        "slots": {
+            "framework_name": "rails"
+        },
+        "positions": {
+            "framework_name": [
+                11,
+                15
+            ]
+        }
     }
 ]

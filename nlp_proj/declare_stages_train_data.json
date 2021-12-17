@@ -1,0 +1,54 @@
+[
+    {
+        "intent": "declare_stages",
+        "text": "In testing stage there needs to be some validation done",
+        "slots": {
+            "names_of_stages": "testing"
+        },
+        "positions": {
+            "app_name": [
+                3,
+                9
+            ]
+        }
+    },
+    {
+        "intent": "declare_stages",
+        "text": "there will be stage 1, stage 2, stage 3 as stages",
+        "slots": {
+            "names_of_stages": "stage 1, stage 2, stage 3"
+        },
+        "positions": {
+            "app_name": [
+                14,
+                38
+            ]
+        }
+    },
+    {
+        "intent": "declare_stages",
+        "text": "there will be build, test, deploy as stages",
+        "slots": {
+            "names_of_stages": "build, test, deploy"
+        },
+        "positions": {
+            "app_name": [
+                14,
+                32
+            ]
+        }
+    },
+    {
+        "intent": "declare_stages",
+        "text": "stages are dependancies, test, deploy to staging",
+        "slots": {
+            "no_of_stages": "two"
+        },
+        "positions": {
+            "app_name": [
+                14,
+                16
+            ]
+        }
+    }
+]

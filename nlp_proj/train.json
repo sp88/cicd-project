@@ -1,67 +1,119 @@
 {
-    "0": {
-        "intent": "deploy_app",
-        "text": "I would like to deploy nodejs-app-test1",
-        "slots": {
-            "app_name": "nodejs-app-test1"
-        },
-        "positions": {
-            "app_name": [
-                23,
-                38
-            ]
-        }
+  "0": {
+    "intent": "app_name",
+    "text": "I would like to deploy nodejs-app-test1",
+    "slots": {
+      "app_name": "nodejs-app-test1"
     },
-    "1": {
-        "intent": "deploy_app",
-        "text": "I want to deploy packages service",
-        "slots": {
-            "app_name": "packages"
-        },
-        "positions": {
-            "app_name": [
-                17,
-                24
-            ]
-        }
-    },
-    "2": {
-        "intent": "declare_stages",
-        "text": "stages are dependancies, test, deploy to staging",
-        "slots": {
-            "no_of_stages": "two"
-        },
-        "positions": {
-            "app_name": [
-                14,
-                16
-            ]
-        }
-    },
-    "3": {
-        "intent": "declare_stages",
-        "text": "there will be build, test, deploy as stages",
-        "slots": {
-            "names_of_stages": "build, test, deploy"
-        },
-        "positions": {
-            "app_name": [
-                14,
-                32
-            ]
-        }
-    },
-    "4": {
-        "intent": "declare_stages",
-        "text": "In testing stage there needs to be some validation done",
-        "slots": {
-            "names_of_stages": "testing"
-        },
-        "positions": {
-            "app_name": [
-                3,
-                9
-            ]
-        }
+    "positions": {
+      "app_name": [
+        23,
+        38
+      ]
     }
+  },
+  "1": {
+    "intent": "app_name",
+    "text": "I want to deploy packages service",
+    "slots": {
+      "app_name": "packages"
+    },
+    "positions": {
+      "app_name": [
+        17,
+        24
+      ]
+    }
+  },
+  "2": {
+    "intent": "app_name",
+    "text": "I like to deploy package-exporter project",
+    "slots": {
+      "app_name": "package-exporter"
+    },
+    "positions": {
+      "app_name": [
+        17,
+        32
+      ]
+    }
+  },
+  "3": {
+    "intent": "app_name",
+    "text": "Deploy telephonic-alm-services Please \ud83d\ude00",
+    "slots": {
+      "app_name": "telephonic-services"
+    },
+    "positions": {
+      "app_name": [
+        7,
+        29
+      ]
+    }
+  },
+  "4": {
+    "intent": "app_name",
+    "text": "I like to deploy telephonic-services",
+    "slots": {
+      "app_name": "telephonic-services"
+    },
+    "positions": {
+      "app_name": [
+        17,
+        35
+      ]
+    }
+  },
+  "5": {
+    "intent": "declare_stages",
+    "text": "In testing stage there needs to be some validation done",
+    "slots": {
+      "names_of_stages": "testing"
+    },
+    "positions": {
+      "app_name": [
+        3,
+        9
+      ]
+    }
+  },
+  "6": {
+    "intent": "declare_stages",
+    "text": "there will be stage 1, stage 2, stage 3 as stages",
+    "slots": {
+      "names_of_stages": "stage 1, stage 2, stage 3"
+    },
+    "positions": {
+      "app_name": [
+        14,
+        38
+      ]
+    }
+  },
+  "7": {
+    "intent": "declare_stages",
+    "text": "there will be build, test, deploy as stages",
+    "slots": {
+      "names_of_stages": "build, test, deploy"
+    },
+    "positions": {
+      "app_name": [
+        14,
+        32
+      ]
+    }
+  },
+  "8": {
+    "intent": "declare_stages",
+    "text": "stages are dependancies, test, deploy to staging",
+    "slots": {
+      "no_of_stages": "two"
+    },
+    "positions": {
+      "app_name": [
+        14,
+        16
+      ]
+    }
+  }
 }

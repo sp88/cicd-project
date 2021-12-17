@@ -1,0 +1,67 @@
+[
+    {
+        "intent": "app_name",
+        "text": "I would like to deploy nodejs-app-test1",
+        "slots": {
+            "app_name": "nodejs-app-test1"
+        },
+        "positions": {
+            "app_name": [
+                23,
+                38
+            ]
+        }
+    },
+    {
+        "intent": "app_name",
+        "text": "I want to deploy packages service",
+        "slots": {
+            "app_name": "packages"
+        },
+        "positions": {
+            "app_name": [
+                17,
+                24
+            ]
+        }
+    },
+    {
+        "intent": "app_name",
+        "text": "I like to deploy package-exporter project",
+        "slots": {
+            "app_name": "package-exporter"
+        },
+        "positions": {
+            "app_name": [
+                17,
+                32
+            ]
+        }
+    },
+    {
+        "intent": "app_name",
+        "text": "Deploy telephonic-alm-services Please 😀",
+        "slots": {
+            "app_name": "telephonic-services"
+        },
+        "positions": {
+            "app_name": [
+                7,
+                29
+            ]
+        }
+    },
+    {
+        "intent": "app_name",
+        "text": "I like to deploy telephonic-services",
+        "slots": {
+            "app_name": "telephonic-services"
+        },
+        "positions": {
+            "app_name": [
+                17,
+                35
+            ]
+        }
+    }
+]

@@ -1,6 +1,6 @@
 {
   "0": {
-    "intent": "app_name",
+    "intent": "capture_app_name",
     "text": "I would like to deploy nodejs-app-test1",
     "slots": {
       "app_name": "nodejs-app-test1"
@@ -13,7 +13,7 @@
     }
   },
   "1": {
-    "intent": "app_name",
+    "intent": "capture_app_name",
     "text": "I want to deploy packages service",
     "slots": {
       "app_name": "packages"
@@ -26,7 +26,7 @@
     }
   },
   "2": {
-    "intent": "app_name",
+    "intent": "capture_app_name",
     "text": "I like to deploy package-exporter project",
     "slots": {
       "app_name": "package-exporter"
@@ -39,7 +39,7 @@
     }
   },
   "3": {
-    "intent": "app_name",
+    "intent": "capture_app_name",
     "text": "Deploy telephonic-alm-services Please \ud83d\ude00",
     "slots": {
       "app_name": "telephonic-services"
@@ -52,7 +52,7 @@
     }
   },
   "4": {
-    "intent": "app_name",
+    "intent": "capture_app_name",
     "text": "I like to deploy telephonic-services",
     "slots": {
       "app_name": "telephonic-services"
@@ -71,7 +71,7 @@
       "names_of_stages": "testing"
     },
     "positions": {
-      "app_name": [
+      "stages_names": [
         3,
         9
       ]
@@ -84,7 +84,7 @@
       "names_of_stages": "stage 1, stage 2, stage 3"
     },
     "positions": {
-      "app_name": [
+      "stages_names": [
         14,
         38
       ]
@@ -97,7 +97,7 @@
       "names_of_stages": "build, test, deploy"
     },
     "positions": {
-      "app_name": [
+      "stages_names": [
         14,
         32
       ]
@@ -110,7 +110,7 @@
       "no_of_stages": "two"
     },
     "positions": {
-      "app_name": [
+      "stages_names": [
         14,
         16
       ]

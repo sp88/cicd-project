@@ -4,7 +4,8 @@ import json
 
 FILES = [
     'app_name_train_data.json',
-    'declare_stages_train_data.json'
+    'declare_stages_train_data.json',
+    'framework_name_train_data.json'
 ]
 
 

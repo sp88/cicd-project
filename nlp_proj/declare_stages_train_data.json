@@ -6,7 +6,7 @@
             "names_of_stages": "testing"
         },
         "positions": {
-            "app_name": [
+            "stages_names": [
                 3,
                 9
             ]
@@ -19,7 +19,7 @@
             "names_of_stages": "stage 1, stage 2, stage 3"
         },
         "positions": {
-            "app_name": [
+            "stages_names": [
                 14,
                 38
             ]
@@ -32,7 +32,7 @@
             "names_of_stages": "build, test, deploy"
         },
         "positions": {
-            "app_name": [
+            "stages_names": [
                 14,
                 32
             ]
@@ -45,7 +45,7 @@
             "no_of_stages": "two"
         },
         "positions": {
-            "app_name": [
+            "stages_names": [
                 14,
                 16
             ]

@@ -1,0 +1,15 @@
+[
+    {
+        "intent": "capture_env_variables",
+        "text": "environment variables to use are USER=dolton, PASSWORD=qwe123$",
+        "slots": {
+            "env_variables": "USER=dolton, PASSWORD=qwe123$"
+        },
+        "positions": {
+            "env_variables": [
+                33,
+                61
+            ]
+        }
+    }
+]

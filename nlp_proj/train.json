@@ -1,122 +1,5 @@
 {
   "0": {
-    "intent": "capture_app_name",
-    "text": "I would like to deploy nodejs-app-test1",
-    "slots": {
-      "app_name": "nodejs-app-test1"
-    },
-    "positions": {
-      "app_name": [
-        23,
-        38
-      ]
-    }
-  },
-  "1": {
-    "intent": "capture_app_name",
-    "text": "I want to deploy packages service",
-    "slots": {
-      "app_name": "packages"
-    },
-    "positions": {
-      "app_name": [
-        17,
-        24
-      ]
-    }
-  },
-  "2": {
-    "intent": "capture_app_name",
-    "text": "I like to deploy package-exporter project",
-    "slots": {
-      "app_name": "package-exporter"
-    },
-    "positions": {
-      "app_name": [
-        17,
-        32
-      ]
-    }
-  },
-  "3": {
-    "intent": "capture_app_name",
-    "text": "Deploy telephonic-alm-services Please \ud83d\ude00",
-    "slots": {
-      "app_name": "telephonic-services"
-    },
-    "positions": {
-      "app_name": [
-        7,
-        29
-      ]
-    }
-  },
-  "4": {
-    "intent": "capture_app_name",
-    "text": "I like to deploy telephonic-services",
-    "slots": {
-      "app_name": "telephonic-services"
-    },
-    "positions": {
-      "app_name": [
-        17,
-        35
-      ]
-    }
-  },
-  "5": {
-    "intent": "capture_app_name",
-    "text": "I like to deploy propertyService",
-    "slots": {
-      "app_name": "propertyService"
-    },
-    "positions": {
-      "app_name": [
-        17,
-        31
-      ]
-    }
-  },
-  "6": {
-    "intent": "capture_app_name",
-    "text": "Can you deploy propertyService",
-    "slots": {
-      "app_name": "propertyService"
-    },
-    "positions": {
-      "app_name": [
-        15,
-        29
-      ]
-    }
-  },
-  "7": {
-    "intent": "capture_app_name",
-    "text": "my application is named management-services",
-    "slots": {
-      "app_name": "management-services"
-    },
-    "positions": {
-      "app_name": [
-        24,
-        42
-      ]
-    }
-  },
-  "8": {
-    "intent": "capture_app_name",
-    "text": "my service is to-do-list-test",
-    "slots": {
-      "app_name": "to-do-list-test"
-    },
-    "positions": {
-      "app_name": [
-        14,
-        28
-      ]
-    }
-  },
-  "9": {
     "intent": "declare_stages",
     "text": "In testing stage there needs to be some validation done",
     "slots": {
@@ -129,7 +12,7 @@
       ]
     }
   },
-  "10": {
+  "1": {
     "intent": "declare_stages",
     "text": "there will be stage 1, stage 2, stage 3 as stages",
     "slots": {
@@ -142,7 +25,7 @@
       ]
     }
   },
-  "11": {
+  "2": {
     "intent": "declare_stages",
     "text": "there will be build, test, deploy as stages",
     "slots": {
@@ -155,7 +38,7 @@
       ]
     }
   },
-  "12": {
+  "3": {
     "intent": "declare_stages",
     "text": "stages are dependancies, test, deploy to staging, deploy to production",
     "slots": {
@@ -168,7 +51,7 @@
       ]
     }
   },
-  "13": {
+  "4": {
     "intent": "declare_stages",
     "text": "stages are dependancies, test, deploy to staging",
     "slots": {
@@ -181,7 +64,7 @@
       ]
     }
   },
-  "14": {
+  "5": {
     "intent": "declare_stages",
     "text": "stages are dependancies, test, deploy to staging",
     "slots": {
@@ -194,7 +77,20 @@
       ]
     }
   },
-  "15": {
+  "6": {
+    "intent": "capture_env_variables",
+    "text": "environment variables to use are USER=dolton, PASSWORD=qwe123$",
+    "slots": {
+      "env_variables": "USER=dolton, PASSWORD=qwe123$"
+    },
+    "positions": {
+      "env_variables": [
+        33,
+        61
+      ]
+    }
+  },
+  "7": {
     "intent": "capture_framework_name",
     "text": "I am using npm as the framework",
     "slots": {
@@ -207,7 +103,7 @@
       ]
     }
   },
-  "16": {
+  "8": {
     "intent": "capture_framework_name",
     "text": "I am using nodejs as the framework",
     "slots": {
@@ -220,7 +116,7 @@
       ]
     }
   },
-  "17": {
+  "9": {
     "intent": "capture_framework_name",
     "text": "I am not using any framework",
     "slots": {
@@ -233,7 +129,7 @@
       ]
     }
   },
-  "18": {
+  "10": {
     "intent": "capture_framework_name",
     "text": "I am not using any framework",
     "slots": {
@@ -246,7 +142,7 @@
       ]
     }
   },
-  "19": {
+  "11": {
     "intent": "capture_framework_name",
     "text": "using python django framework",
     "slots": {
@@ -259,7 +155,7 @@
       ]
     }
   },
-  "20": {
+  "12": {
     "intent": "capture_framework_name",
     "text": "using ruby rails",
     "slots": {
@@ -269,6 +165,141 @@
       "framework_name": [
         11,
         15
+      ]
+    }
+  },
+  "13": {
+    "intent": "capture_instance_type",
+    "text": "I want to use the t2.small instance in AWS",
+    "slots": {
+      "instance_type": "smallest",
+      "cloud_provider": "AWS"
+    },
+    "positions": {
+      "instance_type": [
+        18,
+        25
+      ],
+      "cloud_provider": [
+        39,
+        41
+      ]
+    }
+  },
+  "14": {
+    "intent": "capture_app_name",
+    "text": "I would like to deploy nodejs-app-test1",
+    "slots": {
+      "app_name": "nodejs-app-test1"
+    },
+    "positions": {
+      "app_name": [
+        23,
+        38
+      ]
+    }
+  },
+  "15": {
+    "intent": "capture_app_name",
+    "text": "I want to deploy packages service",
+    "slots": {
+      "app_name": "packages"
+    },
+    "positions": {
+      "app_name": [
+        17,
+        24
+      ]
+    }
+  },
+  "16": {
+    "intent": "capture_app_name",
+    "text": "I like to deploy package-exporter project",
+    "slots": {
+      "app_name": "package-exporter"
+    },
+    "positions": {
+      "app_name": [
+        17,
+        32
+      ]
+    }
+  },
+  "17": {
+    "intent": "capture_app_name",
+    "text": "Deploy telephonic-alm-services Please \ud83d\ude00",
+    "slots": {
+      "app_name": "telephonic-services"
+    },
+    "positions": {
+      "app_name": [
+        7,
+        29
+      ]
+    }
+  },
+  "18": {
+    "intent": "capture_app_name",
+    "text": "I like to deploy telephonic-services",
+    "slots": {
+      "app_name": "telephonic-services"
+    },
+    "positions": {
+      "app_name": [
+        17,
+        35
+      ]
+    }
+  },
+  "19": {
+    "intent": "capture_app_name",
+    "text": "I like to deploy propertyService",
+    "slots": {
+      "app_name": "propertyService"
+    },
+    "positions": {
+      "app_name": [
+        17,
+        31
+      ]
+    }
+  },
+  "20": {
+    "intent": "capture_app_name",
+    "text": "Can you deploy propertyService",
+    "slots": {
+      "app_name": "propertyService"
+    },
+    "positions": {
+      "app_name": [
+        15,
+        29
+      ]
+    }
+  },
+  "21": {
+    "intent": "capture_app_name",
+    "text": "my application is named management-services",
+    "slots": {
+      "app_name": "management-services"
+    },
+    "positions": {
+      "app_name": [
+        24,
+        42
+      ]
+    }
+  },
+  "22": {
+    "intent": "capture_app_name",
+    "text": "my service is to-do-list-test",
+    "slots": {
+      "app_name": "to-do-list-test"
+    },
+    "positions": {
+      "app_name": [
+        14,
+        28
       ]
     }
   }

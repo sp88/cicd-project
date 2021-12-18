@@ -1,0 +1,20 @@
+[
+    {
+        "intent": "capture_instance_type",
+        "text": "I want to use the t2.small instance in AWS",
+        "slots": {
+            "instance_type": "smallest",
+            "cloud_provider": "AWS"
+        },
+        "positions": {
+            "instance_type": [
+                18,
+                25
+            ],
+            "cloud_provider": [
+                39,
+                41
+            ]
+        }
+    }
+]

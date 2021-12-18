@@ -1,20 +1,18 @@
 import os
 import json
+import glob
 
 
-FILES = [
-    'app_name_train_data.json',
-    'declare_stages_train_data.json',
-    'framework_name_train_data.json'
-]
+def get_files():
+    return glob.glob(f"{os.getcwd()}/nlp_proj/train_data/*.json")
 
 
 def aggregate_training_data():
+    files = get_files()
     all_train_data = []
-    for filename in FILES:
-        _filename = f"{os.getcwd()}/nlp_proj/{filename}"
-        if os.path.exists(_filename):
-            with open(_filename, "r", encoding="utf-8") as json_file:
+    for filename in files:
+        if os.path.exists(filename):
+            with open(filename, "r", encoding="utf-8") as json_file:
                 data = json.load(json_file)
                 all_train_data.extend(data)
                 print(f"{filename} has",len(data))

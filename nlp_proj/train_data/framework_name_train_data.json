@@ -14,7 +14,7 @@
     },
     {
         "intent": "capture_framework_name",
-        "text": "I am using nodejs as the framework",
+        "text": "I am using nodejs as the framework 😀",
         "slots": {
             "framework_name": "nodejs"
         },
@@ -22,19 +22,6 @@
             "framework_name": [
                 11,
                 16
-            ]
-        }
-    },
-    {
-        "intent": "capture_framework_name",
-        "text": "I am not using any framework",
-        "slots": {
-            "framework_name": "not using any"
-        },
-        "positions": {
-            "framework_name": [
-                5,
-                13
             ]
         }
     },
@@ -53,7 +40,7 @@
     },
     {
         "intent": "capture_framework_name",
-        "text": "using ruby rails",
+        "text": "using ruby rails as the framework.",
         "slots": {
             "framework_name": "rails"
         },
@@ -61,6 +48,58 @@
             "framework_name": [
                 11,
                 15
+            ]
+        }
+    },
+    {
+        "intent": "capture_framework_name",
+        "text": "using python aiohttp as the framework. 😀",
+        "slots": {
+            "framework_name": "aiohttp"
+        },
+        "positions": {
+            "framework_name": [
+                13,
+                19
+            ]
+        }
+    },
+    {
+        "intent": "capture_framework_name",
+        "text": "using python flask as the framework. 😀",
+        "slots": {
+            "framework_name": "flask"
+        },
+        "positions": {
+            "framework_name": [
+                13,
+                17
+            ]
+        }
+    },
+    {
+        "intent": "capture_framework_name",
+        "text": "pyramid is the framework!",
+        "slots": {
+            "framework_name": "pyramid"
+        },
+        "positions": {
+            "framework_name": [
+                0,
+                6
+            ]
+        }
+    },
+    {
+        "intent": "capture_framework_name",
+        "text": "django is the framework!",
+        "slots": {
+            "framework_name": "django"
+        },
+        "positions": {
+            "framework_name": [
+                0,
+                5
             ]
         }
     }

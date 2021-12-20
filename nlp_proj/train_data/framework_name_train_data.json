@@ -16,7 +16,7 @@
         "intent": "capture_framework_name",
         "text": "I am using nodejs as the framework",
         "slots": {
-            "framework_name": "npm"
+            "framework_name": "nodejs"
         },
         "positions": {
             "framework_name": [
@@ -29,20 +29,7 @@
         "intent": "capture_framework_name",
         "text": "I am not using any framework",
         "slots": {
-            "framework_name": "not using"
-        },
-        "positions": {
-            "framework_name": [
-                5,
-                13
-            ]
-        }
-    },
-    {
-        "intent": "capture_framework_name",
-        "text": "I am not using any framework",
-        "slots": {
-            "framework_name": "not using"
+            "framework_name": "not using any"
         },
         "positions": {
             "framework_name": [

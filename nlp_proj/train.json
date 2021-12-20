@@ -91,6 +91,84 @@
     }
   },
   "7": {
+    "intent": "capture_env_variables",
+    "text": "environment variables to use are ENV=production, PASSWORD=4#qetrwe",
+    "slots": {
+      "env_variables": "ENV=production, PASSWORD=4#qetrwe"
+    },
+    "positions": {
+      "env_variables": [
+        33,
+        65
+      ]
+    }
+  },
+  "8": {
+    "intent": "capture_env_variables",
+    "text": "environment variables are ENV=development, OTHER=dfsfvsvsdcsdvsvxDDsssdvsdv",
+    "slots": {
+      "env_variables": "ENV=development, OTHER=dfsfvsvsdcsdvsvxDDsssdvsdv"
+    },
+    "positions": {
+      "env_variables": [
+        26,
+        74
+      ]
+    }
+  },
+  "9": {
+    "intent": "capture_env_variables",
+    "text": "TEST_USER=development_1, PASSWORD=$qrfvqe24gwdsfv are the environment variables",
+    "slots": {
+      "env_variables": "TEST_USER=development_1, PASSWORD=$qrfvqe24gwdsfv"
+    },
+    "positions": {
+      "env_variables": [
+        0,
+        48
+      ]
+    }
+  },
+  "10": {
+    "intent": "capture_env_variables",
+    "text": "NAME=test, USE_CHALLENGE=true, VERSION=2.2.4, EDIT_ROLES=developer are the environment variables",
+    "slots": {
+      "env_variables": "NAME=test, USE_CHALLENGE=true, VERSION=2.2.4, EDIT_ROLES=developer"
+    },
+    "positions": {
+      "env_variables": [
+        0,
+        65
+      ]
+    }
+  },
+  "11": {
+    "intent": "capture_env_variables",
+    "text": "VAR_1=test, VAR_2=true, VAR_1=2.2.4, VAR_4=dev are the environment variables",
+    "slots": {
+      "env_variables": "VAR_1=test, VAR_2=true, VAR_1=2.2.4, VAR_4=dev"
+    },
+    "positions": {
+      "env_variables": [
+        0,
+        45
+      ]
+    }
+  },
+  "12": {
+    "intent": "capture_env_variables",
+    "text": "VAR_1=test, VAR_2=true, VAR_1=2.2.4, VAR_4=dev are the environment variables",
+    "slots": {
+      "env_variables": "VAR_1=test, VAR_2=true, VAR_1=2.2.4, VAR_4=dev"
+    },
+    "positions": {
+      "env_variables": [
+        0,
+        45
+      ]
+    }
+  },
+  "13": {
     "intent": "capture_framework_name",
     "text": "I am using npm as the framework",
     "slots": {
@@ -103,7 +181,7 @@
       ]
     }
   },
-  "8": {
+  "14": {
     "intent": "capture_framework_name",
     "text": "I am using nodejs as the framework",
     "slots": {
@@ -116,7 +194,7 @@
       ]
     }
   },
-  "9": {
+  "15": {
     "intent": "capture_framework_name",
     "text": "I am not using any framework",
     "slots": {
@@ -129,7 +207,7 @@
       ]
     }
   },
-  "10": {
+  "16": {
     "intent": "capture_framework_name",
     "text": "I am not using any framework",
     "slots": {
@@ -142,7 +220,7 @@
       ]
     }
   },
-  "11": {
+  "17": {
     "intent": "capture_framework_name",
     "text": "using python django framework",
     "slots": {
@@ -155,7 +233,7 @@
       ]
     }
   },
-  "12": {
+  "18": {
     "intent": "capture_framework_name",
     "text": "using ruby rails",
     "slots": {
@@ -168,11 +246,11 @@
       ]
     }
   },
-  "13": {
+  "19": {
     "intent": "capture_instance_type",
     "text": "I want to use the t2.small instance in AWS",
     "slots": {
-      "instance_type": "smallest",
+      "instance_type": "t2.small",
       "cloud_provider": "AWS"
     },
     "positions": {
@@ -186,7 +264,113 @@
       ]
     }
   },
-  "14": {
+  "20": {
+    "intent": "capture_instance_type",
+    "text": "I want to use the t2.nano instance in AWS",
+    "slots": {
+      "instance_type": "t2.nano",
+      "cloud_provider": "AWS"
+    },
+    "positions": {
+      "instance_type": [
+        18,
+        24
+      ],
+      "cloud_provider": [
+        38,
+        40
+      ]
+    }
+  },
+  "21": {
+    "intent": "capture_instance_type",
+    "text": "Please use t2.small in AWS",
+    "slots": {
+      "instance_type": "t2.small",
+      "cloud_provider": "AWS"
+    },
+    "positions": {
+      "instance_type": [
+        11,
+        18
+      ],
+      "cloud_provider": [
+        23,
+        25
+      ]
+    }
+  },
+  "22": {
+    "intent": "capture_instance_type",
+    "text": "Please use t2.large \ud83d\ude01",
+    "slots": {
+      "instance_type": "t2.large"
+    },
+    "positions": {
+      "instance_type": [
+        11,
+        18
+      ]
+    }
+  },
+  "23": {
+    "intent": "capture_instance_type",
+    "text": "Use t3.nano as the instance :)",
+    "slots": {
+      "instance_type": "t2.large"
+    },
+    "positions": {
+      "instance_type": [
+        4,
+        10
+      ]
+    }
+  },
+  "24": {
+    "intent": "capture_instance_type",
+    "text": "\ud83d\ude03 give me a t3.small as the instance",
+    "slots": {
+      "instance_type": "t3.small"
+    },
+    "positions": {
+      "instance_type": [
+        12,
+        19
+      ]
+    }
+  },
+  "25": {
+    "intent": "capture_instance_type",
+    "text": "Just a t3.small instance",
+    "slots": {
+      "instance_type": "t3.small"
+    },
+    "positions": {
+      "instance_type": [
+        7,
+        14
+      ]
+    }
+  },
+  "26": {
+    "intent": "capture_instance_type",
+    "text": "I am not using much, so t2.small from Amazon",
+    "slots": {
+      "instance_type": "t2.small",
+      "cloud_provider": "Amazon"
+    },
+    "positions": {
+      "instance_type": [
+        18,
+        24
+      ],
+      "cloud_provider": [
+        38,
+        40
+      ]
+    }
+  },
+  "27": {
     "intent": "capture_app_name",
     "text": "I would like to deploy nodejs-app-test1",
     "slots": {
@@ -199,7 +383,7 @@
       ]
     }
   },
-  "15": {
+  "28": {
     "intent": "capture_app_name",
     "text": "I want to deploy packages service",
     "slots": {
@@ -212,7 +396,7 @@
       ]
     }
   },
-  "16": {
+  "29": {
     "intent": "capture_app_name",
     "text": "I like to deploy package-exporter project",
     "slots": {
@@ -225,7 +409,7 @@
       ]
     }
   },
-  "17": {
+  "30": {
     "intent": "capture_app_name",
     "text": "Deploy telephonic-alm-services Please \ud83d\ude00",
     "slots": {
@@ -238,7 +422,7 @@
       ]
     }
   },
-  "18": {
+  "31": {
     "intent": "capture_app_name",
     "text": "I like to deploy telephonic-services",
     "slots": {
@@ -251,7 +435,7 @@
       ]
     }
   },
-  "19": {
+  "32": {
     "intent": "capture_app_name",
     "text": "I like to deploy propertyService",
     "slots": {
@@ -264,7 +448,7 @@
       ]
     }
   },
-  "20": {
+  "33": {
     "intent": "capture_app_name",
     "text": "Can you deploy propertyService",
     "slots": {
@@ -277,7 +461,7 @@
       ]
     }
   },
-  "21": {
+  "34": {
     "intent": "capture_app_name",
     "text": "my application is named management-services",
     "slots": {
@@ -290,7 +474,7 @@
       ]
     }
   },
-  "22": {
+  "35": {
     "intent": "capture_app_name",
     "text": "my service is to-do-list-test",
     "slots": {

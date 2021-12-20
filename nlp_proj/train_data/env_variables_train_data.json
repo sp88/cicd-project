@@ -11,5 +11,83 @@
                 61
             ]
         }
+    },
+    {
+        "intent": "capture_env_variables",
+        "text": "environment variables to use are ENV=production, PASSWORD=4#qetrwe",
+        "slots": {
+            "env_variables": "ENV=production, PASSWORD=4#qetrwe"
+        },
+        "positions": {
+            "env_variables": [
+                33,
+                65
+            ]
+        }
+    },
+    {
+        "intent": "capture_env_variables",
+        "text": "environment variables are ENV=development, OTHER=dfsfvsvsdcsdvsvxDDsssdvsdv",
+        "slots": {
+            "env_variables": "ENV=development, OTHER=dfsfvsvsdcsdvsvxDDsssdvsdv"
+        },
+        "positions": {
+            "env_variables": [
+                26,
+                74
+            ]
+        }
+    },
+    {
+        "intent": "capture_env_variables",
+        "text": "TEST_USER=development_1, PASSWORD=$qrfvqe24gwdsfv are the environment variables",
+        "slots": {
+            "env_variables": "TEST_USER=development_1, PASSWORD=$qrfvqe24gwdsfv"
+        },
+        "positions": {
+            "env_variables": [
+                0,
+                48
+            ]
+        }
+    },
+    {
+        "intent": "capture_env_variables",
+        "text": "NAME=test, USE_CHALLENGE=true, VERSION=2.2.4, EDIT_ROLES=developer are the environment variables",
+        "slots": {
+            "env_variables": "NAME=test, USE_CHALLENGE=true, VERSION=2.2.4, EDIT_ROLES=developer"
+        },
+        "positions": {
+            "env_variables": [
+                0,
+                65
+            ]
+        }
+    },
+    {
+        "intent": "capture_env_variables",
+        "text": "VAR_1=test, VAR_2=true, VAR_1=2.2.4, VAR_4=dev are the environment variables",
+        "slots": {
+            "env_variables": "VAR_1=test, VAR_2=true, VAR_1=2.2.4, VAR_4=dev"
+        },
+        "positions": {
+            "env_variables": [
+                0,
+                45
+            ]
+        }
+    },
+    {
+        "intent": "capture_env_variables",
+        "text": "VAR_1=test, VAR_2=true, VAR_1=2.2.4, VAR_4=dev are the environment variables",
+        "slots": {
+            "env_variables": "VAR_1=test, VAR_2=true, VAR_1=2.2.4, VAR_4=dev"
+        },
+        "positions": {
+            "env_variables": [
+                0,
+                45
+            ]
+        }
     }
 ]

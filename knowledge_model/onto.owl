@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://test.org/onto.owl"
+         xmlns="http://test.org/onto.owl#">
+
+<owl:Ontology rdf:about="http://test.org/onto.owl"/>
+
+<owl:ObjectProperty rdf:about="#has_stages">
+  <rdfs:domain rdf:resource="#Framework"/>
+  <rdfs:range rdf:resource="#DeployStage"/>
+  <rdfs:range rdf:resource="#TestStage"/>
+  <rdfs:range rdf:resource="#DependancyStage"/>
+</owl:ObjectProperty>
+
+<owl:Class rdf:about="#Framework">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#DependancyStage">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#TestStage">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#DeployStage">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<Framework rdf:about="#Flask">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_stages rdf:resource="#Flask Dependancy Stage"/>
+  <has_stages rdf:resource="#Flask Test Stage"/>
+  <has_stages rdf:resource="#Flask Deploy Stage"/>
+</Framework>
+
+<DependancyStage rdf:about="#Flask Dependancy Stage">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</DependancyStage>
+
+<TestStage rdf:about="#Flask Test Stage">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TestStage>
+
+<DeployStage rdf:about="#Flask Deploy Stage">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</DeployStage>
+
+
+</rdf:RDF>

@@ -1,83 +1,18 @@
 {
   "0": {
     "intent": "declare_stages",
-    "text": "In testing stage there needs to be some validation done",
+    "text": "stages are dependancies, test, deploy to staging",
     "slots": {
-      "names_of_stages": "testing"
+      "names_of_stages": "dependancies, test, deploy to staging"
     },
     "positions": {
       "stages_names": [
-        3,
-        9
+        11,
+        47
       ]
     }
   },
   "1": {
-    "intent": "declare_stages",
-    "text": "there will be stage 1, stage 2, stage 3 as stages",
-    "slots": {
-      "names_of_stages": "stage 1, stage 2, stage 3"
-    },
-    "positions": {
-      "stages_names": [
-        14,
-        38
-      ]
-    }
-  },
-  "2": {
-    "intent": "declare_stages",
-    "text": "there will be build, test, deploy as stages",
-    "slots": {
-      "names_of_stages": "build, test, deploy"
-    },
-    "positions": {
-      "stages_names": [
-        14,
-        32
-      ]
-    }
-  },
-  "3": {
-    "intent": "declare_stages",
-    "text": "stages are dependancies, test, deploy to staging, deploy to production",
-    "slots": {
-      "names_of_stages": "dependancies, test, deploy to staging, deploy to production"
-    },
-    "positions": {
-      "stages_names": [
-        11,
-        69
-      ]
-    }
-  },
-  "4": {
-    "intent": "declare_stages",
-    "text": "stages are dependancies, test, deploy to staging",
-    "slots": {
-      "names_of_stages": "dependancies, test, deploy to staging"
-    },
-    "positions": {
-      "stages_names": [
-        11,
-        47
-      ]
-    }
-  },
-  "5": {
-    "intent": "declare_stages",
-    "text": "stages are dependancies, test, deploy to staging",
-    "slots": {
-      "names_of_stages": "dependancies, test, deploy to staging"
-    },
-    "positions": {
-      "stages_names": [
-        11,
-        47
-      ]
-    }
-  },
-  "6": {
     "intent": "capture_env_variables",
     "text": "environment variables to use are USER=dolton, PASSWORD=qwe123$",
     "slots": {
@@ -90,256 +25,7 @@
       ]
     }
   },
-  "7": {
-    "intent": "capture_env_variables",
-    "text": "environment variables to use are ENV=production, PASSWORD=4#qetrwe",
-    "slots": {
-      "env_variables": "ENV=production, PASSWORD=4#qetrwe"
-    },
-    "positions": {
-      "env_variables": [
-        33,
-        65
-      ]
-    }
-  },
-  "8": {
-    "intent": "capture_env_variables",
-    "text": "environment variables are ENV=development, OTHER=dfsfvsvsdcsdvsvxDDsssdvsdv",
-    "slots": {
-      "env_variables": "ENV=development, OTHER=dfsfvsvsdcsdvsvxDDsssdvsdv"
-    },
-    "positions": {
-      "env_variables": [
-        26,
-        74
-      ]
-    }
-  },
-  "9": {
-    "intent": "capture_env_variables",
-    "text": "TEST_USER=development_1, PASSWORD=$qrfvqe24gwdsfv are the environment variables",
-    "slots": {
-      "env_variables": "TEST_USER=development_1, PASSWORD=$qrfvqe24gwdsfv"
-    },
-    "positions": {
-      "env_variables": [
-        0,
-        48
-      ]
-    }
-  },
-  "10": {
-    "intent": "capture_env_variables",
-    "text": "NAME=test, USE_CHALLENGE=true, VERSION=2.2.4, EDIT_ROLES=developer are the environment variables",
-    "slots": {
-      "env_variables": "NAME=test, USE_CHALLENGE=true, VERSION=2.2.4, EDIT_ROLES=developer"
-    },
-    "positions": {
-      "env_variables": [
-        0,
-        65
-      ]
-    }
-  },
-  "11": {
-    "intent": "capture_env_variables",
-    "text": "VAR_1=test, VAR_2=true, VAR_1=2.2.4, VAR_4=dev are the environment variables",
-    "slots": {
-      "env_variables": "VAR_1=test, VAR_2=true, VAR_1=2.2.4, VAR_4=dev"
-    },
-    "positions": {
-      "env_variables": [
-        0,
-        45
-      ]
-    }
-  },
-  "12": {
-    "intent": "capture_env_variables",
-    "text": "VAR_1=test, VAR_2=true, VAR_1=2.2.4, VAR_4=dev are the environment variables",
-    "slots": {
-      "env_variables": "VAR_1=test, VAR_2=true, VAR_1=2.2.4, VAR_4=dev"
-    },
-    "positions": {
-      "env_variables": [
-        0,
-        45
-      ]
-    }
-  },
-  "13": {
-    "intent": "capture_framework_name",
-    "text": "I am using npm as the framework",
-    "slots": {
-      "framework_name": "npm"
-    },
-    "positions": {
-      "framework_name": [
-        11,
-        13
-      ]
-    }
-  },
-  "14": {
-    "intent": "capture_framework_name",
-    "text": "I am using nodejs as the framework",
-    "slots": {
-      "framework_name": "nodejs"
-    },
-    "positions": {
-      "framework_name": [
-        11,
-        16
-      ]
-    }
-  },
-  "15": {
-    "intent": "capture_framework_name",
-    "text": "I am not using any framework",
-    "slots": {
-      "framework_name": "not using any"
-    },
-    "positions": {
-      "framework_name": [
-        5,
-        13
-      ]
-    }
-  },
-  "16": {
-    "intent": "capture_framework_name",
-    "text": "using python django framework",
-    "slots": {
-      "framework_name": "django"
-    },
-    "positions": {
-      "framework_name": [
-        13,
-        18
-      ]
-    }
-  },
-  "17": {
-    "intent": "capture_framework_name",
-    "text": "using ruby rails",
-    "slots": {
-      "framework_name": "rails"
-    },
-    "positions": {
-      "framework_name": [
-        11,
-        15
-      ]
-    }
-  },
-  "18": {
-    "intent": "capture_instance_type",
-    "text": "I want to use the t2.small instance in AWS",
-    "slots": {
-      "instance_type": "t2.small",
-      "cloud_provider": "AWS"
-    },
-    "positions": {
-      "instance_type": [
-        18,
-        25
-      ],
-      "cloud_provider": [
-        39,
-        41
-      ]
-    }
-  },
-  "19": {
-    "intent": "capture_instance_type",
-    "text": "I want to use the t2.nano instance in AWS",
-    "slots": {
-      "instance_type": "t2.nano",
-      "cloud_provider": "AWS"
-    },
-    "positions": {
-      "instance_type": [
-        18,
-        24
-      ],
-      "cloud_provider": [
-        38,
-        40
-      ]
-    }
-  },
-  "20": {
-    "intent": "capture_instance_type",
-    "text": "Please use t2.small in AWS",
-    "slots": {
-      "instance_type": "t2.small",
-      "cloud_provider": "AWS"
-    },
-    "positions": {
-      "instance_type": [
-        11,
-        18
-      ],
-      "cloud_provider": [
-        23,
-        25
-      ]
-    }
-  },
-  "21": {
-    "intent": "capture_instance_type",
-    "text": "Please use t2.large \ud83d\ude01",
-    "slots": {
-      "instance_type": "t2.large"
-    },
-    "positions": {
-      "instance_type": [
-        11,
-        18
-      ]
-    }
-  },
-  "22": {
-    "intent": "capture_instance_type",
-    "text": "Use t3.nano as the instance :)",
-    "slots": {
-      "instance_type": "t2.large"
-    },
-    "positions": {
-      "instance_type": [
-        4,
-        10
-      ]
-    }
-  },
-  "23": {
-    "intent": "capture_instance_type",
-    "text": "\ud83d\ude03 give me a t3.small as the instance",
-    "slots": {
-      "instance_type": "t3.small"
-    },
-    "positions": {
-      "instance_type": [
-        12,
-        19
-      ]
-    }
-  },
-  "24": {
-    "intent": "capture_instance_type",
-    "text": "Just a t3.small instance",
-    "slots": {
-      "instance_type": "t3.small"
-    },
-    "positions": {
-      "instance_type": [
-        7,
-        14
-      ]
-    }
-  },
-  "25": {
+  "2": {
     "intent": "capture_instance_type",
     "text": "I am not using much, so t2.small from Amazon",
     "slots": {
@@ -357,20 +43,7 @@
       ]
     }
   },
-  "26": {
-    "intent": "capture_app_name",
-    "text": "I would like to deploy nodejs-app-test1",
-    "slots": {
-      "app_name": "nodejs-app-test1"
-    },
-    "positions": {
-      "app_name": [
-        23,
-        38
-      ]
-    }
-  },
-  "27": {
+  "3": {
     "intent": "capture_app_name",
     "text": "I want to deploy packages service",
     "slots": {
@@ -383,33 +56,59 @@
       ]
     }
   },
-  "28": {
-    "intent": "capture_app_name",
-    "text": "I like to deploy package-exporter project",
+  "4": {
+    "intent": "declare_stages",
+    "text": "stages are dependancies, test, deploy to staging",
     "slots": {
-      "app_name": "package-exporter"
+      "names_of_stages": "dependancies, test, deploy to staging"
     },
     "positions": {
-      "app_name": [
-        17,
-        32
+      "stages_names": [
+        11,
+        47
       ]
     }
   },
-  "29": {
+  "5": {
     "intent": "capture_app_name",
-    "text": "Deploy telephonic-alm-services Please \ud83d\ude00",
+    "text": "my service is to-do-list-test",
     "slots": {
-      "app_name": "telephonic-services"
+      "app_name": "to-do-list-test"
     },
     "positions": {
       "app_name": [
-        7,
-        29
+        14,
+        28
       ]
     }
   },
-  "30": {
+  "6": {
+    "intent": "declare_stages",
+    "text": "stages are dependancies, test, deploy to staging, deploy to production",
+    "slots": {
+      "names_of_stages": "dependancies, test, deploy to staging, deploy to production"
+    },
+    "positions": {
+      "stages_names": [
+        11,
+        69
+      ]
+    }
+  },
+  "7": {
+    "intent": "capture_env_variables",
+    "text": "environment variables are ENV=development, OTHER=dfsfvsvsdcsdvsvxDDsssdvsdv",
+    "slots": {
+      "env_variables": "ENV=development, OTHER=dfsfvsvsdcsdvsvxDDsssdvsdv"
+    },
+    "positions": {
+      "env_variables": [
+        26,
+        74
+      ]
+    }
+  },
+  "8": {
     "intent": "capture_app_name",
     "text": "I like to deploy telephonic-services",
     "slots": {
@@ -422,33 +121,51 @@
       ]
     }
   },
-  "31": {
+  "9": {
     "intent": "capture_app_name",
-    "text": "I like to deploy propertyService",
+    "text": "Deploy telephonic-alm-services Please \ud83d\ude00",
     "slots": {
-      "app_name": "propertyService"
+      "app_name": "telephonic-services"
     },
     "positions": {
       "app_name": [
-        17,
-        31
-      ]
-    }
-  },
-  "32": {
-    "intent": "capture_app_name",
-    "text": "Can you deploy propertyService",
-    "slots": {
-      "app_name": "propertyService"
-    },
-    "positions": {
-      "app_name": [
-        15,
+        7,
         29
       ]
     }
   },
-  "33": {
+  "10": {
+    "intent": "capture_instance_type",
+    "text": "I want to use the t2.nano instance in AWS",
+    "slots": {
+      "instance_type": "t2.nano",
+      "cloud_provider": "AWS"
+    },
+    "positions": {
+      "instance_type": [
+        18,
+        24
+      ],
+      "cloud_provider": [
+        38,
+        40
+      ]
+    }
+  },
+  "11": {
+    "intent": "capture_instance_type",
+    "text": "Just a t3.small instance",
+    "slots": {
+      "instance_type": "t3.small"
+    },
+    "positions": {
+      "instance_type": [
+        7,
+        14
+      ]
+    }
+  },
+  "12": {
     "intent": "capture_app_name",
     "text": "my application is named management-services",
     "slots": {
@@ -461,16 +178,338 @@
       ]
     }
   },
-  "34": {
-    "intent": "capture_app_name",
-    "text": "my service is to-do-list-test",
+  "13": {
+    "intent": "declare_stages",
+    "text": "there will be stage 1, stage 2, stage 3 as stages",
     "slots": {
-      "app_name": "to-do-list-test"
+      "names_of_stages": "stage 1, stage 2, stage 3"
+    },
+    "positions": {
+      "stages_names": [
+        14,
+        38
+      ]
+    }
+  },
+  "14": {
+    "intent": "declare_stages",
+    "text": "In testing stage there needs to be some validation done",
+    "slots": {
+      "names_of_stages": "testing"
+    },
+    "positions": {
+      "stages_names": [
+        3,
+        9
+      ]
+    }
+  },
+  "15": {
+    "intent": "capture_framework_name",
+    "text": "django is the framework!",
+    "slots": {
+      "framework_name": "django"
+    },
+    "positions": {
+      "framework_name": [
+        0,
+        5
+      ]
+    }
+  },
+  "16": {
+    "intent": "capture_instance_type",
+    "text": "Use t3.nano as the instance :)",
+    "slots": {
+      "instance_type": "t2.large"
+    },
+    "positions": {
+      "instance_type": [
+        4,
+        10
+      ]
+    }
+  },
+  "17": {
+    "intent": "capture_framework_name",
+    "text": "using python django framework",
+    "slots": {
+      "framework_name": "django"
+    },
+    "positions": {
+      "framework_name": [
+        13,
+        18
+      ]
+    }
+  },
+  "18": {
+    "intent": "capture_instance_type",
+    "text": "Please use t2.small in AWS",
+    "slots": {
+      "instance_type": "t2.small",
+      "cloud_provider": "AWS"
+    },
+    "positions": {
+      "instance_type": [
+        11,
+        18
+      ],
+      "cloud_provider": [
+        23,
+        25
+      ]
+    }
+  },
+  "19": {
+    "intent": "capture_framework_name",
+    "text": "using python aiohttp as the framework. \ud83d\ude00",
+    "slots": {
+      "framework_name": "aiohttp"
+    },
+    "positions": {
+      "framework_name": [
+        13,
+        19
+      ]
+    }
+  },
+  "20": {
+    "intent": "capture_framework_name",
+    "text": "using python flask as the framework. \ud83d\ude00",
+    "slots": {
+      "framework_name": "flask"
+    },
+    "positions": {
+      "framework_name": [
+        13,
+        17
+      ]
+    }
+  },
+  "21": {
+    "intent": "capture_app_name",
+    "text": "Can you deploy propertyService",
+    "slots": {
+      "app_name": "propertyService"
     },
     "positions": {
       "app_name": [
+        15,
+        29
+      ]
+    }
+  },
+  "22": {
+    "intent": "capture_app_name",
+    "text": "I like to deploy propertyService",
+    "slots": {
+      "app_name": "propertyService"
+    },
+    "positions": {
+      "app_name": [
+        17,
+        31
+      ]
+    }
+  },
+  "23": {
+    "intent": "capture_env_variables",
+    "text": "TEST_USER=development_1, PASSWORD=$qrfvqe24gwdsfv are the environment variables",
+    "slots": {
+      "env_variables": "TEST_USER=development_1, PASSWORD=$qrfvqe24gwdsfv"
+    },
+    "positions": {
+      "env_variables": [
+        0,
+        48
+      ]
+    }
+  },
+  "24": {
+    "intent": "capture_instance_type",
+    "text": "Please use t2.large \ud83d\ude01",
+    "slots": {
+      "instance_type": "t2.large"
+    },
+    "positions": {
+      "instance_type": [
+        11,
+        18
+      ]
+    }
+  },
+  "25": {
+    "intent": "capture_env_variables",
+    "text": "VAR_1=test, VAR_2=true, VAR_1=2.2.4, VAR_4=dev are the environment variables",
+    "slots": {
+      "env_variables": "VAR_1=test, VAR_2=true, VAR_1=2.2.4, VAR_4=dev"
+    },
+    "positions": {
+      "env_variables": [
+        0,
+        45
+      ]
+    }
+  },
+  "26": {
+    "intent": "capture_framework_name",
+    "text": "using ruby rails as the framework.",
+    "slots": {
+      "framework_name": "rails"
+    },
+    "positions": {
+      "framework_name": [
+        11,
+        15
+      ]
+    }
+  },
+  "27": {
+    "intent": "capture_framework_name",
+    "text": "I am using nodejs as the framework \ud83d\ude00",
+    "slots": {
+      "framework_name": "nodejs"
+    },
+    "positions": {
+      "framework_name": [
+        11,
+        16
+      ]
+    }
+  },
+  "28": {
+    "intent": "declare_stages",
+    "text": "there will be build, test, deploy as stages",
+    "slots": {
+      "names_of_stages": "build, test, deploy"
+    },
+    "positions": {
+      "stages_names": [
         14,
-        28
+        32
+      ]
+    }
+  },
+  "29": {
+    "intent": "capture_app_name",
+    "text": "I would like to deploy nodejs-app-test1",
+    "slots": {
+      "app_name": "nodejs-app-test1"
+    },
+    "positions": {
+      "app_name": [
+        23,
+        38
+      ]
+    }
+  },
+  "30": {
+    "intent": "capture_env_variables",
+    "text": "VAR_1=test, VAR_2=true, VAR_1=2.2.4, VAR_4=dev are the environment variables",
+    "slots": {
+      "env_variables": "VAR_1=test, VAR_2=true, VAR_1=2.2.4, VAR_4=dev"
+    },
+    "positions": {
+      "env_variables": [
+        0,
+        45
+      ]
+    }
+  },
+  "31": {
+    "intent": "capture_framework_name",
+    "text": "I am using npm as the framework",
+    "slots": {
+      "framework_name": "npm"
+    },
+    "positions": {
+      "framework_name": [
+        11,
+        13
+      ]
+    }
+  },
+  "32": {
+    "intent": "capture_instance_type",
+    "text": "I want to use the t2.small instance in AWS",
+    "slots": {
+      "instance_type": "t2.small",
+      "cloud_provider": "AWS"
+    },
+    "positions": {
+      "instance_type": [
+        18,
+        25
+      ],
+      "cloud_provider": [
+        39,
+        41
+      ]
+    }
+  },
+  "33": {
+    "intent": "capture_framework_name",
+    "text": "pyramid is the framework!",
+    "slots": {
+      "framework_name": "pyramid"
+    },
+    "positions": {
+      "framework_name": [
+        0,
+        6
+      ]
+    }
+  },
+  "34": {
+    "intent": "capture_instance_type",
+    "text": "\ud83d\ude03 give me a t3.small as the instance",
+    "slots": {
+      "instance_type": "t3.small"
+    },
+    "positions": {
+      "instance_type": [
+        12,
+        19
+      ]
+    }
+  },
+  "35": {
+    "intent": "capture_env_variables",
+    "text": "environment variables to use are ENV=production, PASSWORD=4#qetrwe",
+    "slots": {
+      "env_variables": "ENV=production, PASSWORD=4#qetrwe"
+    },
+    "positions": {
+      "env_variables": [
+        33,
+        65
+      ]
+    }
+  },
+  "36": {
+    "intent": "capture_env_variables",
+    "text": "NAME=test, USE_CHALLENGE=true, VERSION=2.2.4, EDIT_ROLES=developer are the environment variables",
+    "slots": {
+      "env_variables": "NAME=test, USE_CHALLENGE=true, VERSION=2.2.4, EDIT_ROLES=developer"
+    },
+    "positions": {
+      "env_variables": [
+        0,
+        65
+      ]
+    }
+  },
+  "37": {
+    "intent": "capture_app_name",
+    "text": "I like to deploy package-exporter project",
+    "slots": {
+      "app_name": "package-exporter"
+    },
+    "positions": {
+      "app_name": [
+        17,
+        32
       ]
     }
   }

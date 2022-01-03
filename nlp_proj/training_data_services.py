@@ -1,6 +1,7 @@
 import os
 import json
 import glob
+import random
 
 
 def get_files():
@@ -21,6 +22,8 @@ def aggregate_training_data():
 
     print("all train data len:", len(all_train_data))
 
+    # shuffle train data
+    random.shuffle(all_train_data)
     # write to 'train.json'
     all_data_dict = {f"{idx}": data for idx, data in enumerate(all_train_data)}
 

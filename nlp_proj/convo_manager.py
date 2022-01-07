@@ -59,23 +59,32 @@ class SlotEnum(Enum):
 
 
 
-def check_conversation_elements(conversation: Conversation) -> Union(bool, str):
+def prompt_user(conversation: Conversation) -> Union(bool, str):
     if not conversation.app_name:
-        return False, "Needs app_name"
+        return False, "Can you enter application name please?"
     if not conversation.stages:
-        return False, "Needs at least one stage"
+        return False, "Pipeline needs at least one stage, you declare stages now."
     
     for stage in conversation.stages:
         if not stage.name:
-            return False, "No name for stage"
+            return False, "No name for stage entered, enter names of stages please."
         if not stage.jobs:
             return False, f"Needs at least one job for {stage}"
         for job in stage.jobs:
             if not job.name:
-                return False, "Needs name for Job"
+                return False, f"Needs name for Job, enter name of Job for {stage}"
             if not job.commands:
-                return False, "A job needs commands"
+                return False, f"A job needs commands, please enter any custom commands now for job {job}"
             
+    if not conversation.git_info.repo_name:
+        return False, "Repository Name neeeded, please enter repository name"
+
+    if not conversation.git_info.repo_framework:
+        return False, "Framework name is needed, please enter the Framework you use."
+
+    if not conversation.cloud_info.instance_type:
+        return False, "What is the Cloud Instance type need? You can enter values such as 't2.micro'"
+
     return True, "conversation is complete"
 
 

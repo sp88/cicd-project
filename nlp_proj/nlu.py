@@ -1,7 +1,43 @@
 import tensorflow as tf
+import os
+from transformers import AutoTokenizer
+
+from model_declaration import JointIntentAndSlotFillingModel
+
+model_name = "bert-base-cased"
+tokenizer = AutoTokenizer.from_pretrained(model_name)
 
 
-def nlu(text, tokenizer, model, intent_names, slot_names):
+def get_model():
+  checkpoint_path = f"{os.getcwd()}/nlp_proj"+"/saved_model/cp-{epoch:04d}.ckpt"
+  checkpoint_dir = os.path.dirname(checkpoint_path)
+
+  print(checkpoint_dir)
+  latest = tf.train.latest_checkpoint(checkpoint_dir)
+  print(latest)
+
+
+  loaded_model = JointIntentAndSlotFillingModel(
+      intent_num_labels=5, slot_num_labels=7)
+  loaded_model.load_weights(latest)
+  return loaded_model
+
+intent_names = ['capture_app_name',
+ 'capture_framework_name',
+ 'capture_env_variables',
+ 'declare_stages',
+ 'capture_instance_type']
+
+slot_names = ['<PAD>',
+ 'env_variables',
+ 'app_name',
+ 'names_of_stages',
+ 'framework_name',
+ 'instance_type',
+ 'cloud_provider']
+
+model = get_model()
+def nlu(text, tokenizer=tokenizer, model=model, intent_names=intent_names, slot_names=slot_names):
     inputs = tf.constant(tokenizer.encode(text))[None, :]  # batch_size = 1
     outputs = model(inputs)
     slot_logits, intent_logits = outputs
@@ -53,3 +89,8 @@ def nlu(text, tokenizer, model, intent_names, slot_names):
         info["slots"][slot_name] = slot_value.strip()
 
     return info
+
+
+#  TEST
+print(nlu("I want to deploy Nodejs-todo-app if possible"))
+print(nlu("NodeJS-Express is the framework"))

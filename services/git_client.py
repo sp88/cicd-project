@@ -16,9 +16,9 @@ def clean_tmp_dir():
             print('Failed to delete %s. Reason: %s' % (file_path, e))
 
 
-def getRepo(repo_ur : str):
+def clone_repo(repo_ur : str):
     clean_tmp_dir()
-    Repo.clone_from("git@gitlab.com:2018020sahan/node-js-test-1.git", "./tmp/")
+    Repo.clone_from(repo_ur, "./tmp/")
 
 
 def commit_ci_file():

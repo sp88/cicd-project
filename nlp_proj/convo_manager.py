@@ -1,6 +1,8 @@
 
-from typing import List, Union
+from typing import Dict, List, Union
 from enum import Enum
+
+from pydantic import BaseModel
 
 
 class Command():
@@ -42,9 +44,9 @@ class Conversation():
 
 #### Intent/Slot
 
-class NLUElement():
+class NLUElement(BaseModel):
     intent: str = None
-    slots: List[str] = []
+    slots: Dict[str, str] = {}
 
 
 class IntentEnum(Enum):
@@ -55,7 +57,12 @@ class IntentEnum(Enum):
     declare_stages = "declare_stages"
 
 class SlotEnum(Enum):
-    pass
+    env_variables = 'env_variables'
+    app_name = 'app_name'
+    names_of_stages = 'names_of_stages'
+    framework_name = 'framework_name'
+    instance_type = 'instance_type'
+    cloud_provider = 'cloud_provider'
 
 
 
@@ -76,6 +83,9 @@ def prompt_user(conversation: Conversation) -> Union(bool, str):
             if not job.commands:
                 return False, f"A job needs commands, please enter any custom commands now for job {job}"
             
+    if not conversation.cloud_info.instance_type:
+        return False, "What is the instance type that you wish to host the application in?"
+
     if not conversation.git_info.repo_name:
         return False, "Repository Name neeeded, please enter repository name"
 
@@ -92,7 +102,8 @@ def prompt_user(conversation: Conversation) -> Union(bool, str):
 def populate_conversation_elements(user_input: NLUElement, conversation: Conversation):
     try:
         intent = IntentEnum(user_input.intent)
-
+        if not conversation.app_name and user_input.intent == "capture_app_name":
+            pass
 
     except:
         return conversation

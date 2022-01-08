@@ -11,3 +11,9 @@ tmp/*
 # Test Files
 .gitlab-ci.yml
 test.py
+
+# Model
+*/saved_model/*
+*/model.zip
+
+*/__pycache__/*

@@ -2,7 +2,8 @@ import tensorflow as tf
 import os
 from transformers import AutoTokenizer
 
-from model_declaration import JointIntentAndSlotFillingModel
+from nlp_proj.model_declaration import JointIntentAndSlotFillingModel
+
 
 model_name = "bert-base-cased"
 tokenizer = AutoTokenizer.from_pretrained(model_name)

@@ -35,8 +35,9 @@ def get_public_ip(instance_id):
 
     for reservation in reservations:
         for instance in reservation['Instances']:
-            _public_ip = instance.get("PublicIpAddress")
-            print(_public_ip)
+            return instance.get("PublicIpAddress")
+
+
 
 # create_key_pair()
 # create_instance()

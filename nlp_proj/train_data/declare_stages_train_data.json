@@ -1,7 +1,7 @@
 [
     {
         "intent": "declare_stages",
-        "text": "In testing stage there needs to be some validation done",
+        "text": "In testing stage there needs to be some validation done :)",
         "slots": {
             "names_of_stages": "testing"
         },
@@ -27,7 +27,7 @@
     },
     {
         "intent": "declare_stages",
-        "text": "there will be build, test, deploy as stages",
+        "text": "there will be build, test, deploy as stages :)",
         "slots": {
             "names_of_stages": "build, test, deploy"
         },
@@ -53,7 +53,7 @@
     },
     {
         "intent": "declare_stages",
-        "text": "stages are dependancies, test, deploy to staging",
+        "text": "stages are dependancies, test, deploy to staging 😀",
         "slots": {
             "names_of_stages": "dependancies, test, deploy to staging"
         },
@@ -69,6 +69,123 @@
         "text": "stages are dependancies, test, deploy to staging",
         "slots": {
             "names_of_stages": "dependancies, test, deploy to staging"
+        },
+        "positions": {
+            "stages_names": [
+                11,
+                47
+            ]
+        }
+    },
+    {
+        "intent": "declare_stages",
+        "text": "stages are build, test, deploy to staging",
+        "slots": {
+            "names_of_stages": "build, test, deploy to staging"
+        },
+        "positions": {
+            "stages_names": [
+                11,
+                47
+            ]
+        }
+    },
+    {
+        "intent": "declare_stages",
+        "text": "I want build, test, deploy, tagging as stages please",
+        "slots": {
+            "names_of_stages": "build, test, deploy, tagging"
+        },
+        "positions": {
+            "stages_names": [
+                11,
+                47
+            ]
+        }
+    },
+    {
+        "intent": "declare_stages",
+        "text": "I want build, deploy as stages please :)",
+        "slots": {
+            "names_of_stages": "build, deploy"
+        },
+        "positions": {
+            "stages_names": [
+                11,
+                47
+            ]
+        }
+    },
+    {
+        "intent": "declare_stages",
+        "text": "I just want to deploy so QA can test",
+        "slots": {
+            "names_of_stages": "deploy"
+        },
+        "positions": {
+            "stages_names": [
+                11,
+                47
+            ]
+        }
+    },
+    {
+        "intent": "declare_stages",
+        "text": "I want to build then run the test suite and deploy the application to staging",
+        "slots": {
+            "names_of_stages": "deploy"
+        },
+        "positions": {
+            "stages_names": [
+                11,
+                47
+            ]
+        }
+    },
+    {
+        "intent": "declare_stages",
+        "text": "please install dependancies, test and deploy so that the application is ready!",
+        "slots": {
+            "names_of_stages": "dependancies, test and deploy"
+        },
+        "positions": {
+            "stages_names": [
+                11,
+                47
+            ]
+        }
+    },
+    {
+        "intent": "declare_stages",
+        "text": "not sure but I want to build and test the application",
+        "slots": {
+            "names_of_stages": "build and test"
+        },
+        "positions": {
+            "stages_names": [
+                11,
+                47
+            ]
+        }
+    },
+    {
+        "intent": "declare_stages",
+        "text": "can I please have build, test, tag, deploy stages in the pipeline",
+        "slots": {
+            "names_of_stages": "build, test, tag, deploy"
+        },
+        "positions": {
+            "stages_names": [
+                11,
+                47
+            ]
+        }
+    },
+    {
+        "intent": "declare_stages",
+        "text": "can I please have build, test, tag, deploy stages in the pipeline! thanks :) ",
+        "slots": {
+            "names_of_stages": "build, test, tag, deploy"
         },
         "positions": {
             "stages_names": [

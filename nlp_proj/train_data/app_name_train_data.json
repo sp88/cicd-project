@@ -115,5 +115,83 @@
                 28
             ]
         }
+    },
+    {
+        "intent": "capture_app_name",
+        "text": "the application is called viz-engine",
+        "slots": {
+            "app_name": "viz-engine"
+        },
+        "positions": {
+            "app_name": [
+                14,
+                28
+            ]
+        }
+    },
+    {
+        "intent": "capture_app_name",
+        "text": "the application is named Business-Tools-Middleware",
+        "slots": {
+            "app_name": "Business-Tools-Middleware"
+        },
+        "positions": {
+            "app_name": [
+                14,
+                28
+            ]
+        }
+    },
+    {
+        "intent": "capture_app_name",
+        "text": "the application is called Map-Services",
+        "slots": {
+            "app_name": "Map-Services"
+        },
+        "positions": {
+            "app_name": [
+                14,
+                28
+            ]
+        }
+    },
+    {
+        "intent": "capture_app_name",
+        "text": "the application is Map-Services 😊",
+        "slots": {
+            "app_name": "Map-Services"
+        },
+        "positions": {
+            "app_name": [
+                14,
+                28
+            ]
+        }
+    },
+    {
+        "intent": "capture_app_name",
+        "text": "I have named the application as Boker-Services 😊",
+        "slots": {
+            "app_name": "Boker-Services"
+        },
+        "positions": {
+            "app_name": [
+                14,
+                28
+            ]
+        }
+    },
+    {
+        "intent": "capture_app_name",
+        "text": "application is Python-Load-Manager",
+        "slots": {
+            "app_name": "Python-Load-Manager"
+        },
+        "positions": {
+            "app_name": [
+                14,
+                28
+            ]
+        }
     }
 ]

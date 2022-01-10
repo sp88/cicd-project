@@ -14,9 +14,9 @@
     },
     {
         "intent": "capture_framework_name",
-        "text": "I am using nodejs as the framework 😀",
+        "text": "I am using Nodejs as the framework 😀",
         "slots": {
-            "framework_name": "nodejs"
+            "framework_name": "Nodejs"
         },
         "positions": {
             "framework_name": [
@@ -40,7 +40,7 @@
     },
     {
         "intent": "capture_framework_name",
-        "text": "using ruby rails as the framework.",
+        "text": "using ruby on rails as the framework.",
         "slots": {
             "framework_name": "rails"
         },
@@ -92,9 +92,100 @@
     },
     {
         "intent": "capture_framework_name",
-        "text": "django is the framework!",
+        "text": "Django is the framework!",
         "slots": {
-            "framework_name": "django"
+            "framework_name": "Django"
+        },
+        "positions": {
+            "framework_name": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_framework_name",
+        "text": "Express is the framework!",
+        "slots": {
+            "framework_name": "Express"
+        },
+        "positions": {
+            "framework_name": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_framework_name",
+        "text": "Flask is the framework!",
+        "slots": {
+            "framework_name": "Flask"
+        },
+        "positions": {
+            "framework_name": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_framework_name",
+        "text": "I think the framework is Flask",
+        "slots": {
+            "framework_name": "Flask"
+        },
+        "positions": {
+            "framework_name": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_framework_name",
+        "text": "it's just Express 🙂",
+        "slots": {
+            "framework_name": "Express"
+        },
+        "positions": {
+            "framework_name": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_framework_name",
+        "text": "you might notice, this uses Django",
+        "slots": {
+            "framework_name": "Django"
+        },
+        "positions": {
+            "framework_name": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_framework_name",
+        "text": "you might notice, this uses Django as the framework",
+        "slots": {
+            "framework_name": "Django"
+        },
+        "positions": {
+            "framework_name": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_framework_name",
+        "text": "oh yes it's just Ruby on Rails",
+        "slots": {
+            "framework_name": "Rails"
         },
         "positions": {
             "framework_name": [

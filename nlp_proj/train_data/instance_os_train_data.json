@@ -1,0 +1,197 @@
+[
+    {
+        "intent": "capture_instance_os",
+        "text": "Can you use Ubuntu as the instance operating system",
+        "slots": {
+            "instance_os": "Ubuntu"
+        },
+        "positions": {
+            "instance_os": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_instance_os",
+        "text": "Can you use Linux as the instance operating system 😄",
+        "slots": {
+            "instance_os": "Linux"
+        },
+        "positions": {
+            "instance_os": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_instance_os",
+        "text": "Ubuntu 18 should be the OS",
+        "slots": {
+            "instance_os": "Ubuntu 18"
+        },
+        "positions": {
+            "instance_os": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_instance_os",
+        "text": "please use CentOS as the OS",
+        "slots": {
+            "instance_os": "CentOS"
+        },
+        "positions": {
+            "instance_os": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_instance_os",
+        "text": "please use CentOS as the operating system 😀",
+        "slots": {
+            "instance_os": "CentOS"
+        },
+        "positions": {
+            "instance_os": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_instance_os",
+        "text": "please use CentOS as the operating system 😀",
+        "slots": {
+            "instance_os": "CentOS"
+        },
+        "positions": {
+            "instance_os": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_instance_os",
+        "text": "operating system should be linux based",
+        "slots": {
+            "instance_os": "linux"
+        },
+        "positions": {
+            "instance_os": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_instance_os",
+        "text": "operating system should be macOS based :)",
+        "slots": {
+            "instance_os": "macOS"
+        },
+        "positions": {
+            "instance_os": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_instance_os",
+        "text": "Can I ask you to use Amazon Linux",
+        "slots": {
+            "instance_os": "Amazon Linux"
+        },
+        "positions": {
+            "instance_os": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_instance_os",
+        "text": "Can I ask you to use macOS",
+        "slots": {
+            "instance_os": "macOS"
+        },
+        "positions": {
+            "instance_os": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_instance_os",
+        "text": "I want you to use linux",
+        "slots": {
+            "instance_os": "linux"
+        },
+        "positions": {
+            "instance_os": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_instance_os",
+        "text": "Linux is what I need 😜",
+        "slots": {
+            "instance_os": "Linux"
+        },
+        "positions": {
+            "instance_os": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_instance_os",
+        "text": "Give me Ubuntu as the operating system",
+        "slots": {
+            "instance_os": "Ubuntu"
+        },
+        "positions": {
+            "instance_os": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_instance_os",
+        "text": "operating system should be Windows",
+        "slots": {
+            "instance_os": "Windows"
+        },
+        "positions": {
+            "instance_os": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_instance_os",
+        "text": "I want the OS to be Windows 😊",
+        "slots": {
+            "instance_os": "Windows"
+        },
+        "positions": {
+            "instance_os": [
+                0,
+                5
+            ]
+        }
+    }
+]

@@ -1,0 +1,197 @@
+[
+    {
+        "intent": "capture_keypair",
+        "text": "please use the default keypair",
+        "slots": {
+            "keypair": "default"
+        },
+        "positions": {
+            "keypair": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_keypair",
+        "text": "I am not sure about the keypair",
+        "slots": {
+            "keypair": "not sure"
+        },
+        "positions": {
+            "keypair": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_keypair",
+        "text": "🙃 I am not sure about the keypair",
+        "slots": {
+            "keypair": "not sure"
+        },
+        "positions": {
+            "keypair": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_keypair",
+        "text": "can you please use the existing keypair",
+        "slots": {
+            "keypair": "existing"
+        },
+        "positions": {
+            "keypair": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_keypair",
+        "text": "please use existing keypair",
+        "slots": {
+            "keypair": "existing"
+        },
+        "positions": {
+            "keypair": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_keypair",
+        "text": "can you create new keypair",
+        "slots": {
+            "keypair": "new"
+        },
+        "positions": {
+            "keypair": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_keypair",
+        "text": "I want brand new keypair for deployment",
+        "slots": {
+            "keypair": "new"
+        },
+        "positions": {
+            "keypair": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_keypair",
+        "text": "please deploy with default keypair 🙂",
+        "slots": {
+            "keypair": "default"
+        },
+        "positions": {
+            "keypair": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_keypair",
+        "text": "please deploy with existing keypair",
+        "slots": {
+            "keypair": "existing"
+        },
+        "positions": {
+            "keypair": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_keypair",
+        "text": "I think there is an existing keypair",
+        "slots": {
+            "keypair": "existing"
+        },
+        "positions": {
+            "keypair": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_keypair",
+        "text": "I believe there should be one keypair",
+        "slots": {
+            "keypair": "one"
+        },
+        "positions": {
+            "keypair": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_keypair",
+        "text": "I believe create new keypair",
+        "slots": {
+            "keypair": "new"
+        },
+        "positions": {
+            "keypair": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_keypair",
+        "text": "I believe create new keypair as I am not sure 😌",
+        "slots": {
+            "keypair": "new"
+        },
+        "positions": {
+            "keypair": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_keypair",
+        "text": "I believe there is an existing keypair! I am not sure",
+        "slots": {
+            "keypair": "existing"
+        },
+        "positions": {
+            "keypair": [
+                0,
+                5
+            ]
+        }
+    },
+    {
+        "intent": "capture_keypair",
+        "text": "I don't know! I believe there is the default keypair!",
+        "slots": {
+            "keypair": "default"
+        },
+        "positions": {
+            "keypair": [
+                0,
+                5
+            ]
+        }
+    }
+]

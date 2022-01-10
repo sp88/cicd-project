@@ -1,0 +1,197 @@
+[
+    {
+        "intent": "capture_only_except_condition",
+        "text": "I want to deploy only the master branch 😀",
+        "slots": {
+            "only_condition": "master"
+        },
+        "positions": {
+            "only_condition": [
+                3,
+                9
+            ]
+        }
+    },
+    {
+        "intent": "capture_only_except_condition",
+        "text": "deploy should consider tags and master only",
+        "slots": {
+            "only_condition": "tags and master"
+        },
+        "positions": {
+            "only_condition": [
+                3,
+                9
+            ]
+        }
+    },
+    {
+        "intent": "capture_only_except_condition",
+        "text": "tags, master",
+        "slots": {
+            "only_condition": "tags, master"
+        },
+        "positions": {
+            "only_condition": [
+                3,
+                9
+            ]
+        }
+    },
+    {
+        "intent": "capture_only_except_condition",
+        "text": "staging should consider only master branch",
+        "slots": {
+            "only_condition": "master"
+        },
+        "positions": {
+            "only_condition": [
+                3,
+                9
+            ]
+        }
+    },
+    {
+        "intent": "capture_only_except_condition",
+        "text": "staging should consider only staging branch",
+        "slots": {
+            "only_condition": "staging"
+        },
+        "positions": {
+            "only_condition": [
+                3,
+                9
+            ]
+        }
+    },
+    {
+        "intent": "capture_only_except_condition",
+        "text": "production stage should consider only tags",
+        "slots": {
+            "only_condition": "tags"
+        },
+        "positions": {
+            "only_condition": [
+                3,
+                9
+            ]
+        }
+    },
+    {
+        "intent": "capture_only_except_condition",
+        "text": "production stage should consider only tags",
+        "slots": {
+            "only_condition": "tags"
+        },
+        "positions": {
+            "only_condition": [
+                3,
+                9
+            ]
+        }
+    },
+    {
+        "intent": "capture_only_except_condition",
+        "text": "production stage should consider only tags",
+        "slots": {
+            "only_condition": "tags"
+        },
+        "positions": {
+            "only_condition": [
+                3,
+                9
+            ]
+        }
+    },
+    {
+        "intent": "capture_only_except_condition",
+        "text": "dependancies stage needs to skip development branch",
+        "slots": {
+            "except_condition": "development"
+        },
+        "positions": {
+            "except_condition": [
+                3,
+                9
+            ]
+        }
+    },
+    {
+        "intent": "capture_only_except_condition",
+        "text": "all stages needs to skip development branch",
+        "slots": {
+            "except_condition": "development"
+        },
+        "positions": {
+            "except_condition": [
+                3,
+                9
+            ]
+        }
+    },
+    {
+        "intent": "capture_only_except_condition",
+        "text": "production stage needs to skip *-dev tags",
+        "slots": {
+            "except_condition": "*-dev"
+        },
+        "positions": {
+            "except_condition": [
+                3,
+                9
+            ]
+        }
+    },
+    {
+        "intent": "capture_only_except_condition",
+        "text": "production stage needs to skip *-staging tags",
+        "slots": {
+            "except_condition": "*-staging"
+        },
+        "positions": {
+            "except_condition": [
+                3,
+                9
+            ]
+        }
+    },
+    {
+        "intent": "capture_only_except_condition",
+        "text": "production stage needs to skip *-testing tags",
+        "slots": {
+            "except_condition": "*-testing"
+        },
+        "positions": {
+            "except_condition": [
+                3,
+                9
+            ]
+        }
+    },
+    {
+        "intent": "capture_only_except_condition",
+        "text": "production stage should process all except *-testing tags",
+        "slots": {
+            "except_condition": "*-testing"
+        },
+        "positions": {
+            "except_condition": [
+                3,
+                9
+            ]
+        }
+    },
+    {
+        "intent": "capture_only_except_condition",
+        "text": "production stage should process all except *-dev tags! thank you",
+        "slots": {
+            "except_condition": "*-dev"
+        },
+        "positions": {
+            "except_condition": [
+                3,
+                9
+            ]
+        }
+    }
+]

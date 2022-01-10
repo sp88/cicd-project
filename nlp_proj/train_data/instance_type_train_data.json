@@ -122,5 +122,101 @@
                 40
             ]
         }
+    },
+    {
+        "intent": "capture_instance_type",
+        "text": "I am not using much, so t2.small from Amazon",
+        "slots": {
+            "instance_type": "t2.small",
+            "cloud_provider": "Amazon"
+        },
+        "positions": {
+            "instance_type": [
+                18,
+                24
+            ],
+            "cloud_provider": [
+                38,
+                40
+            ]
+        }
+    },
+    {
+        "intent": "capture_instance_type",
+        "text": "I will need to use mac1.metal for the development work",
+        "slots": {
+            "instance_type": "mac1.metal"
+        },
+        "positions": {
+            "instance_type": [
+                18,
+                24
+            ]
+        }
+    },
+    {
+        "intent": "capture_instance_type",
+        "text": "I have a fairly moderate work load, so I will need to use m4.large instance",
+        "slots": {
+            "instance_type": "m4.large"
+        },
+        "positions": {
+            "instance_type": [
+                18,
+                24
+            ]
+        }
+    },
+    {
+        "intent": "capture_instance_type",
+        "text": "I am going to do some compute intensice work and I want a c4.large as the instance",
+        "slots": {
+            "instance_type": "c4.large"
+        },
+        "positions": {
+            "instance_type": [
+                18,
+                24
+            ]
+        }
+    },
+    {
+        "intent": "capture_instance_type",
+        "text": "h1.2xlarge should be the instance",
+        "slots": {
+            "instance_type": "h1.2xlarge"
+        },
+        "positions": {
+            "instance_type": [
+                18,
+                24
+            ]
+        }
+    },
+    {
+        "intent": "capture_instance_type",
+        "text": "I have some GPU work to be done, so I want a p2.xlarge instance",
+        "slots": {
+            "instance_type": "p2.xlarge"
+        },
+        "positions": {
+            "instance_type": [
+                18,
+                24
+            ]
+        }
+    },
+    {
+        "intent": "capture_instance_type",
+        "text": "Need a lot of memory so maybe a r5.large instance",
+        "slots": {
+            "instance_type": "r5.large"
+        },
+        "positions": {
+            "instance_type": [
+                18,
+                24
+            ]
+        }
     }
 ]

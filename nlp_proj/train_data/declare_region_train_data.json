@@ -1,0 +1,197 @@
+[
+    {
+        "intent": "declare_region",
+        "text": "I want the infrastructure to be close to home so use Mumbai",
+        "slots": {
+            "region": "Mumbai"
+        },
+        "positions": {
+            "region": [
+                11,
+                47
+            ]
+        }
+    },
+    {
+        "intent": "declare_region",
+        "text": "spin the infrastructure in Mumbai 😊😊😊",
+        "slots": {
+            "region": "Mumbai"
+        },
+        "positions": {
+            "region": [
+                11,
+                47
+            ]
+        }
+    },
+    {
+        "intent": "declare_region",
+        "text": "spin the infrastructure in Singapore",
+        "slots": {
+            "region": "Singapore"
+        },
+        "positions": {
+            "region": [
+                11,
+                47
+            ]
+        }
+    },
+    {
+        "intent": "declare_region",
+        "text": "locate my server in Singapore",
+        "slots": {
+            "region": "Singapore"
+        },
+        "positions": {
+            "region": [
+                11,
+                47
+            ]
+        }
+    },
+    {
+        "intent": "declare_region",
+        "text": "locate my server in Ohio please. Thanks :)",
+        "slots": {
+            "region": "Ohio"
+        },
+        "positions": {
+            "region": [
+                11,
+                47
+            ]
+        }
+    },
+    {
+        "intent": "declare_region",
+        "text": "locate my server in Ohio please. Thanks :)",
+        "slots": {
+            "region": "Ohio"
+        },
+        "positions": {
+            "region": [
+                11,
+                47
+            ]
+        }
+    },
+    {
+        "intent": "declare_region",
+        "text": "all my apps are in Mumbai so let's deploy there",
+        "slots": {
+            "region": "Mumbai"
+        },
+        "positions": {
+            "region": [
+                11,
+                47
+            ]
+        }
+    },
+    {
+        "intent": "declare_region",
+        "text": "I have my database in Mumbai so the app should also be there",
+        "slots": {
+            "region": "Mumbai"
+        },
+        "positions": {
+            "region": [
+                11,
+                47
+            ]
+        }
+    },
+    {
+        "intent": "declare_region",
+        "text": "application should be in Asia so how about Singapore",
+        "slots": {
+            "region": "Singapore"
+        },
+        "positions": {
+            "region": [
+                11,
+                47
+            ]
+        }
+    },
+    {
+        "intent": "declare_region",
+        "text": "server need to be in Singapore 😊😊",
+        "slots": {
+            "region": "Singapore"
+        },
+        "positions": {
+            "region": [
+                11,
+                47
+            ]
+        }
+    },
+    {
+        "intent": "declare_region",
+        "text": "I want all my instances in Mumbai 😊",
+        "slots": {
+            "region": "Mumbai"
+        },
+        "positions": {
+            "region": [
+                11,
+                47
+            ]
+        }
+    },
+    {
+        "intent": "declare_region",
+        "text": "I have my client in Australia so I want all my instances in Sydney 😊😊",
+        "slots": {
+            "region": "Sydney"
+        },
+        "positions": {
+            "region": [
+                11,
+                47
+            ]
+        }
+    },
+    {
+        "intent": "declare_region",
+        "text": "cloud deployment should be in Ohio!",
+        "slots": {
+            "region": "Ohio"
+        },
+        "positions": {
+            "region": [
+                11,
+                47
+            ]
+        }
+    },
+    {
+        "intent": "declare_region",
+        "text": "cloud deployment should be in Ohio USA",
+        "slots": {
+            "region": "Ohio"
+        },
+        "positions": {
+            "region": [
+                11,
+                47
+            ]
+        }
+    },
+    {
+        "intent": "declare_region",
+        "text": "cloud deployment should be in Singapore thanks a bunch ;)",
+        "slots": {
+            "region": "Singapore"
+        },
+        "positions": {
+            "region": [
+                11,
+                47
+            ]
+        }
+    }
+]

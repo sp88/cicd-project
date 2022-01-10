@@ -1,0 +1,197 @@
+[
+    {
+        "intent": "capture_cloud_provider",
+        "text": "I want to use Amazon as the cloud provider 😀",
+        "slots": {
+            "cloud_provider": "Amazon"
+        },
+        "positions": {
+            "cloud_provider": [
+                14,
+                28
+            ]
+        }
+    },
+    {
+        "intent": "capture_cloud_provider",
+        "text": "I want to use AWS as the cloud provider",
+        "slots": {
+            "cloud_provider": "AWS"
+        },
+        "positions": {
+            "cloud_provider": [
+                14,
+                28
+            ]
+        }
+    },
+    {
+        "intent": "capture_cloud_provider",
+        "text": "Use GCP as the cloud provider :)",
+        "slots": {
+            "cloud_provider": "GCP"
+        },
+        "positions": {
+            "cloud_provider": [
+                14,
+                28
+            ]
+        }
+    },
+    {
+        "intent": "capture_cloud_provider",
+        "text": "Amazon as the cloud provider 😀",
+        "slots": {
+            "cloud_provider": "Amazon"
+        },
+        "positions": {
+            "cloud_provider": [
+                14,
+                28
+            ]
+        }
+    },
+    {
+        "intent": "capture_cloud_provider",
+        "text": "I want Amazon as the cloud provider 😀",
+        "slots": {
+            "cloud_provider": "Amazon"
+        },
+        "positions": {
+            "cloud_provider": [
+                14,
+                28
+            ]
+        }
+    },
+    {
+        "intent": "capture_cloud_provider",
+        "text": "I'm thinking Amazon as the cloud provider",
+        "slots": {
+            "cloud_provider": "Amazon"
+        },
+        "positions": {
+            "cloud_provider": [
+                14,
+                28
+            ]
+        }
+    },
+    {
+        "intent": "capture_cloud_provider",
+        "text": "I'm thinking Google as the cloud provider",
+        "slots": {
+            "cloud_provider": "Google"
+        },
+        "positions": {
+            "cloud_provider": [
+                14,
+                28
+            ]
+        }
+    },
+    {
+        "intent": "capture_cloud_provider",
+        "text": "Google should be the cloud provider",
+        "slots": {
+            "cloud_provider": "Google"
+        },
+        "positions": {
+            "cloud_provider": [
+                14,
+                28
+            ]
+        }
+    },
+    {
+        "intent": "capture_cloud_provider",
+        "text": "AWS should be the cloud provider",
+        "slots": {
+            "cloud_provider": "AWS"
+        },
+        "positions": {
+            "cloud_provider": [
+                14,
+                28
+            ]
+        }
+    },
+    {
+        "intent": "capture_cloud_provider",
+        "text": "Can I use AWS for this please",
+        "slots": {
+            "cloud_provider": "AWS"
+        },
+        "positions": {
+            "cloud_provider": [
+                14,
+                28
+            ]
+        }
+    },
+    {
+        "intent": "capture_cloud_provider",
+        "text": "Can I use GCP for this please",
+        "slots": {
+            "cloud_provider": "GCP"
+        },
+        "positions": {
+            "cloud_provider": [
+                14,
+                28
+            ]
+        }
+    },
+    {
+        "intent": "capture_cloud_provider",
+        "text": "Can I use GCP for this please",
+        "slots": {
+            "cloud_provider": "GCP"
+        },
+        "positions": {
+            "cloud_provider": [
+                14,
+                28
+            ]
+        }
+    },
+    {
+        "intent": "capture_cloud_provider",
+        "text": "I think amazon is user friendly",
+        "slots": {
+            "cloud_provider": "amazon"
+        },
+        "positions": {
+            "cloud_provider": [
+                14,
+                28
+            ]
+        }
+    },
+    {
+        "intent": "capture_cloud_provider",
+        "text": "AWS is cheap",
+        "slots": {
+            "cloud_provider": "AWS"
+        },
+        "positions": {
+            "cloud_provider": [
+                14,
+                28
+            ]
+        }
+    },
+    {
+        "intent": "capture_cloud_provider",
+        "text": "Google is cheap so can I use that please",
+        "slots": {
+            "cloud_provider": "Google"
+        },
+        "positions": {
+            "cloud_provider": [
+                14,
+                28
+            ]
+        }
+    }
+]

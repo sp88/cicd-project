@@ -89,5 +89,109 @@
                 45
             ]
         }
+    },
+    {
+        "intent": "capture_env_variables",
+        "text": "ENV=production, USE_DEV=1 are the environment variables",
+        "slots": {
+            "env_variables": "ENV=production, USE_DEV=1"
+        },
+        "positions": {
+            "env_variables": [
+                0,
+                45
+            ]
+        }
+    },
+    {
+        "intent": "capture_env_variables",
+        "text": "Use ENV=production, USE_DEV=1 as the environment variables",
+        "slots": {
+            "env_variables": "ENV=production, USE_DEV=1"
+        },
+        "positions": {
+            "env_variables": [
+                0,
+                45
+            ]
+        }
+    },
+    {
+        "intent": "capture_env_variables",
+        "text": "ENV=production, USE_DEV=0, DB_USER=root, DB_PASS=tr5#sdf#",
+        "slots": {
+            "env_variables": "ENV=production, USE_DEV=0, DB_USER=root, DB_PASS=tr5#sdf#"
+        },
+        "positions": {
+            "env_variables": [
+                0,
+                45
+            ]
+        }
+    },
+    {
+        "intent": "capture_env_variables",
+        "text": "can you inject the following environment variables ENV=production, DB_PASS=test!1pwd, DB_USER=root",
+        "slots": {
+            "env_variables": "ENV=production, DB_PASS=test!1pwd, DB_USER=root"
+        },
+        "positions": {
+            "env_variables": [
+                0,
+                45
+            ]
+        }
+    },
+    {
+        "intent": "capture_env_variables",
+        "text": "can you inject the following environment variables ENV=production, DB_PASS=test!1pwd, DB_USER=root thanks",
+        "slots": {
+            "env_variables": "ENV=production, DB_PASS=test!1pwd, DB_USER=root"
+        },
+        "positions": {
+            "env_variables": [
+                0,
+                45
+            ]
+        }
+    },
+    {
+        "intent": "capture_env_variables",
+        "text": "would it be possible to use ENV=production, DB_PASS=test!1pwd, DB_USER=root",
+        "slots": {
+            "env_variables": "ENV=production, DB_PASS=test!1pwd, DB_USER=root"
+        },
+        "positions": {
+            "env_variables": [
+                0,
+                45
+            ]
+        }
+    },
+    {
+        "intent": "capture_env_variables",
+        "text": "just these please DB_PASS=d33e4c33!24$, DB_USER=root",
+        "slots": {
+            "env_variables": "DB_PASS=d33e4c33!24$, DB_USER=root"
+        },
+        "positions": {
+            "env_variables": [
+                0,
+                45
+            ]
+        }
+    },
+    {
+        "intent": "capture_env_variables",
+        "text": "just these please LOG_LEVEL=info, DB_PASS=d33e4c33!24$, ENV=development",
+        "slots": {
+            "env_variables": "LOG_LEVEL=info, DB_PASS=d33e4c33!24$, ENV=development"
+        },
+        "positions": {
+            "env_variables": [
+                0,
+                45
+            ]
+        }
     }
 ]

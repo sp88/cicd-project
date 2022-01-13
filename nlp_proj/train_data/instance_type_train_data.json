@@ -3,17 +3,12 @@
         "intent": "capture_instance_type",
         "text": "I want to use the t2.small instance in AWS",
         "slots": {
-            "instance_type": "t2.small",
-            "cloud_provider": "AWS"
+            "instance_type": "t2.small"
         },
         "positions": {
             "instance_type": [
                 18,
                 25
-            ],
-            "cloud_provider": [
-                39,
-                41
             ]
         }
     },
@@ -21,17 +16,12 @@
         "intent": "capture_instance_type",
         "text": "I want to use the t2.nano instance in AWS",
         "slots": {
-            "instance_type": "t2.nano",
-            "cloud_provider": "AWS"
+            "instance_type": "t2.nano"
         },
         "positions": {
             "instance_type": [
                 18,
                 24
-            ],
-            "cloud_provider": [
-                38,
-                40
             ]
         }
     },
@@ -39,17 +29,12 @@
         "intent": "capture_instance_type",
         "text": "Please use t2.small in AWS",
         "slots": {
-            "instance_type": "t2.small",
-            "cloud_provider": "AWS"
+            "instance_type": "t2.small"
         },
         "positions": {
             "instance_type": [
                 11,
                 18
-            ],
-            "cloud_provider": [
-                23,
-                25
             ]
         }
     },
@@ -109,17 +94,12 @@
         "intent": "capture_instance_type",
         "text": "I am not using much, so t2.small from Amazon",
         "slots": {
-            "instance_type": "t2.small",
-            "cloud_provider": "Amazon"
+            "instance_type": "t2.small"
         },
         "positions": {
             "instance_type": [
                 18,
                 24
-            ],
-            "cloud_provider": [
-                38,
-                40
             ]
         }
     },
@@ -127,17 +107,12 @@
         "intent": "capture_instance_type",
         "text": "I am not using much, so t2.small from Amazon",
         "slots": {
-            "instance_type": "t2.small",
-            "cloud_provider": "Amazon"
+            "instance_type": "t2.small"
         },
         "positions": {
             "instance_type": [
                 18,
                 24
-            ],
-            "cloud_provider": [
-                38,
-                40
             ]
         }
     },
